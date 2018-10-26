@@ -156,7 +156,6 @@ public class Asteroid extends Sprite implements Runnable {
                 Thread.sleep(10);
                 this.x += despX;
                 this.y += despY;
-                Thread.sleep(1);
                 if (
                         (this.x > (parent.getWidth() + this.width)
                         || this.y > (parent.getHeight() + this.height))

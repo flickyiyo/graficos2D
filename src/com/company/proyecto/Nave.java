@@ -67,6 +67,10 @@ public class Nave extends Sprite {
 
     @Override
     public void putPixel(int x, int y, Color c) {
+        if (!c.equals(Color.BLACK)) {
+            super.putPixel(x, y, c);
+            return;
+        }
         Double cos =  Math.cos(Math.toRadians(angulo));
         Double sin =  Math.sin(Math.toRadians(angulo));
         int cx = getWidth() / 2;
