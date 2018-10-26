@@ -1,0 +1,12 @@
+
+Ksquid:S1948	"(Make "buffer" transient or serializable.(’ê áıÿÿÿÿ8íßØöè,
+Psquid:S1905"-Remove this unnecessary cast to "Graphics2D".(ŸĞÜØúÿÿÿÿ8ãáĞöè,
+U
+squid:S106("9Replace this use of System.out or System.err by a logger.(é‘şX8Æ™úè,
+Qsquid:S1068
+".Remove this unused "graphPixel" private field.(Øç†©ÿÿÿÿÿ8’Œˆøè,
+Osquid:S1948
+",Make "graphPixel" transient or serializable.(Øç†©ÿÿÿÿÿ8íßØöè,
+bsquid:S2184"DCast one of the operands of this subtraction operation to a "float".(‰Œ8Æ™úè,
+qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ÓŠÇÿÿÿÿÿ8íßØöè,
+bsquid:S2184"DCast one of the operands of this subtraction operation to a "float".(ã¢¡€8Æ™úè,

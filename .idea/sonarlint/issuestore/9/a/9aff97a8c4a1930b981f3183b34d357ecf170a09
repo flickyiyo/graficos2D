@@ -1,0 +1,18 @@
+
+usquid:S3776)"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ïÄÖÖûÿÿÿÿ8ŸÚıùé,
+=squid:S1659*" Declare "pk" on a separate line.(‹¾Ø,8ŸÚıùé,
+"squid:ClassVariableVisibilityCheck	"UMake posicionY a static final constant or non-public and provide accessors if needed.(êÍ¬íúÿÿÿÿ8˜¹úé,
+dsquid:UselessImportCheck"9Remove this unused import 'java.awt.image.ImageObserver'.(¥Óô”8¸èúé,
+=squid:S1659*" Declare "xk" on a separate line.(‹¾Ø,8ŸÚıùé,
+>squid:S1659*"!Declare "aux" on a separate line.(‹¾Ø,8ŸÚıùé,
+"squid:ClassVariableVisibilityCheck
+"SMake ventana a static final constant or non-public and provide accessors if needed.(®ƒÂüÿÿÿÿ8ş‘İùé,
+"squid:ClassVariableVisibilityCheck	"UMake posicionX a static final constant or non-public and provide accessors if needed.(êÍ¬íúÿÿÿÿ8…ÑŠúé,
+‹"squid:ClassVariableVisibilityCheck"QMake fondo a static final constant or non-public and provide accessors if needed.(ÌˆÓóúÿÿÿÿ8³Æáùé,
+‡"squid:ClassVariableVisibilityCheck"RMake buffer a static final constant or non-public and provide accessors if needed.(Ú¹¢Î8§‘ãùé,
+Jsquid:S1659	"'Declare "posicionY" on a separate line.(êÍ¬íúÿÿÿÿ8˜¹úé,
+‰"squid:ClassVariableVisibilityCheck"TMake gVentana a static final constant or non-public and provide accessors if needed.(¯£Ï©8İ¤àùé,
+"squid:ClassVariableVisibilityCheck"SMake gBuffer a static final constant or non-public and provide accessors if needed.(ˆÁéœıÿÿÿÿ8‹ôîùé,
+<squid:S1659*"Declare "b" on a separate line.(‹¾Ø,8ŸÚıùé,
+Œ"squid:ClassVariableVisibilityCheck"RMake gFondo a static final constant or non-public and provide accessors if needed.(À†üşÿÿÿÿ8³Æáùé,
+=squid:S1659*" Declare "yk" on a separate line.(‹¾Ø,8ŸÚıùé,

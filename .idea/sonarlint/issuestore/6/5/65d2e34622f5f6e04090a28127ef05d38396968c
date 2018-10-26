@@ -1,0 +1,22 @@
+
+Isquid:S2185*"&Remove this silly call to "Math.round"(ªõ»‚ÿÿÿÿÿ8‚òúé,
+_squid:S2184'"ACast one of the operands of this addition operation to a "float".(Õ²Ûï8‚òúé,
+Ksquid:S1948"(Make "buffer" transient or serializable.(’ê áıÿÿÿÿ8ÔÎé,
+dsquid:S2184%"ACast one of the operands of this addition operation to a "float".(ÇÄö¶úÿÿÿÿ8‚òúé,
+Dsquid:S2185'"&Remove this silly call to "Math.round"(Õ²Ûï8‚òúé,
+bsquid:S2184&"DCast one of the operands of this subtraction operation to a "float".(‡æâ³8‚òúé,
+qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(áÿ÷ûÿÿÿÿ8Î¡Èé,
+gsquid:S2184("DCast one of the operands of this subtraction operation to a "float".(€¼­Øúÿÿÿÿ8‚òúé,
+Dsquid:S2185&"&Remove this silly call to "Math.round"(‡æâ³8‚òúé,
+Isquid:S2185("&Remove this silly call to "Math.round"(€¼­Øúÿÿÿÿ8‚òúé,
+Dsquid:S2185)"&Remove this silly call to "Math.round"(ŠÀò¡8‚òúé,
+Isquid:S2185+"&Remove this silly call to "Math.round"(®íá‹ıÿÿÿÿ8‚òúé,
+gsquid:S2184+"DCast one of the operands of this subtraction operation to a "float".(®íá‹ıÿÿÿÿ8‚òúé,
+bsquid:S2184,"DCast one of the operands of this subtraction operation to a "float".(¬ÖÒ¡8‚òúé,
+Qsquid:S1068".Remove this unused "graphPixel" private field.(Øç†©ÿÿÿÿÿ8Î¡Èé,
+Dsquid:S2185,"&Remove this silly call to "Math.round"(¬ÖÒ¡8‚òúé,
+_squid:S2184)"ACast one of the operands of this addition operation to a "float".(ŠÀò¡8‚òúé,
+Psquid:S1905"-Remove this unnecessary cast to "Graphics2D".(ŸĞÜØúÿÿÿÿ8ÔÎé,
+Osquid:S1948",Make "graphPixel" transient or serializable.(Øç†©ÿÿÿÿÿ8Î¡Èé,
+dsquid:S2184*"ACast one of the operands of this addition operation to a "float".(ªõ»‚ÿÿÿÿÿ8‚òúé,
+Isquid:S2185%"&Remove this silly call to "Math.round"(ÇÄö¶úÿÿÿÿ8‚òúé,

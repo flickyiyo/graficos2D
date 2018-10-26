@@ -1,0 +1,17 @@
+
+isquid:S1301&"KReplace this "switch" statement by "if" statements to increase readability.(ìß¤è8Ô•¬úé,
+¤squid:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(˜Â½€øÿÿÿÿ8Ðû™úé,
+Zsquid:S1854"<Remove this useless assignment to local variable "proyecto".(ì¤¹É8‹û¢øé,
+isquid:UselessImportCheck"9Remove this unused import 'java.awt.image.BufferedImage'.(×íÐ‡þÿÿÿÿ8›Ô…úé,
+V
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ÚÙˆû8’Õ­úé,
+Dsquid:S1948
+"&Make "nave" transient or serializable.(ˆÅ¼€8´®†úé,
+W"squid:SwitchLastCaseIsDefaultCheck&""Add a default case to this switch.(ìß¤è8Ô•¬úé,
+V
+squid:S106("9Replace this use of System.out or System.err by a logger.(ÚÙˆû8Ô•¬úé,
+Ksquid:S1481"-Remove this unused "proyecto" local variable.(ì¤¹É8‹û¢øé,
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷—8Ô•¬úé,
+…"squid:ClassVariableVisibilityCheck
+"PMake nave a static final constant or non-public and provide accessors if needed.(ˆÅ¼€8´®†úé,
+lsquid:MaximumInheritanceDepth	"<This class has 6 parents which is greater than 5 authorized.(åÅ€Å8òá‚úé,

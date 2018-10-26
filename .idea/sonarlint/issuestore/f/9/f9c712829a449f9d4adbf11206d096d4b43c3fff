@@ -1,0 +1,5 @@
+
+Csquid:S1905!"&Remove this unnecessary cast to "int".(‚ÄüW8Ë¬Æªé,
+Ssquid:S1854"5Remove this useless assignment to local variable "y".(ò‚œ˜8Ë¬Æªé,
+Tsquid:S1854"6Remove this useless assignment to local variable "p0".(äß‚Ô8Ë¬Æªé,
+Esquid:S1481"'Remove this unused "p0" local variable.(äß‚Ô8Ë¬Æªé,
