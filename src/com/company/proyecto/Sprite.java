@@ -81,6 +81,44 @@ public class Sprite {
         }
     }
 
+    public void rellenar(Position punto, Color color) {
+        int x0 = punto.getX()-1;
+        int y0 = punto.getY()-1;
+        int oldColor = buffer.getRGB(x0, y0);
+        int nuevoColor = buffer.getRGB(x0, y0);
+        for (int y = y0; oldColor == nuevoColor; y++) {
+            for (int x = x0; oldColor == nuevoColor; x++) {
+                if(x<=0 || x>getWidth()-1) break;
+                oldColor = buffer.getRGB(x + 1, y);
+                putPixel(x, y, color);
+            }
+            oldColor = buffer.getRGB(x0 - 1, y);
+            for (int x = x0; oldColor == nuevoColor; x--) {
+                if(x<=0 || x>getWidth()-1) break;
+                oldColor = buffer.getRGB(x - 1, y);
+                putPixel(x, y, color);
+            }
+            oldColor = buffer.getRGB(x0, y + 1);
+        }
+        oldColor = buffer.getRGB(x0, y0 - 1);
+        for (int y = y0 - 1; oldColor == nuevoColor; y--) {
+            if(y<=0 || y>getHeight()-1) break;
+            for (int x = x0; oldColor == nuevoColor; x++) {
+                if(x<=0 || x>getWidth()-1) break;
+                oldColor = buffer.getRGB(x + 1, y);
+                putPixel(x, y, color);
+            }
+            oldColor = buffer.getRGB(x0 - 1, y);
+            for (int x = x0; oldColor == nuevoColor; x--) {
+                if(x<=0 || x>getWidth()-1) break;
+                oldColor = buffer.getRGB(x - 1, y);
+                putPixel(x, y, color);
+            }
+            oldColor = buffer.getRGB(x0, y - 1);
+        }
+
+    }
+
     public int getWidth() {
         return width;
     }

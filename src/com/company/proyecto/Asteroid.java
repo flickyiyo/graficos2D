@@ -19,7 +19,12 @@ public class Asteroid extends Sprite implements Runnable {
         Random rnd = new Random();
         int rndX = rnd.nextInt(4);
         int rndY = rnd.nextInt(4);
-        this.buffer = new BufferedImage(40, 40, BufferedImage.TYPE_INT_ARGB);
+        height  =41;
+        tipoFigura = getRandomFigura();
+        width = 41;
+        if (tipoFigura%2==0)
+            width = 61;
+        this.buffer = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
         this.pixel = new BufferedImage(1,1, BufferedImage.TYPE_INT_RGB);
         this.gPixel = pixel.getGraphics();
         this.gBuffer = buffer.getGraphics();
@@ -28,8 +33,13 @@ public class Asteroid extends Sprite implements Runnable {
         this.y = positionsY[rndY];
         this.height = buffer.getHeight();
         this.angulo = 0;
-        tipoFigura = rnd.nextInt((100 + 1) + 1) + 1;
+
         thread = new Thread(this);
+    }
+
+    public int getRandomFigura () {
+        Random rnd = new Random();
+        return rnd.nextInt(4);
     }
 
     public void setDimensiones(int width, int height) {
@@ -46,6 +56,7 @@ public class Asteroid extends Sprite implements Runnable {
     public void dibujarAsteroide () {
         this.grosor=2;
         this.dibujarElipse(width/2, height/2, width/2, height/2);
+        this.rellenar(new Position(width/2, height/2), Color.orange);
         // 10, 10,5,3
     }
 

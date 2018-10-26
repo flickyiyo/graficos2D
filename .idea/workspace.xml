@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a03554dd-0b89-4863-8f10-90e1b76f0194" name="Default Changelist" comment="" />
+    <list default="true" id="a03554dd-0b89-4863-8f10-90e1b76f0194" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Asteroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Asteroid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Sprite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Sprite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/proyecto/Asteroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/proyecto/Asteroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/proyecto/Nave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/proyecto/Nave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/proyecto/Proyecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/proyecto/Proyecto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,22 +30,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="164" />
+          <entry key="java" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="164" />
+          <entry key="JAVA" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="26320" />
+          <entry key="java" value="26800" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26320" />
+          <entry key="JAVA" value="26800" />
         </counts>
       </usages-collector>
     </session>
@@ -47,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Proyecto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="108" column="30" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
+            <state relative-caret-position="334">
+              <caret line="165" column="33" selection-start-line="165" selection-start-column="33" selection-end-line="165" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2268#2269#0" expanded="true" />
@@ -66,22 +74,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Proyectil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Asteroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="364">
+              <caret line="175" column="23" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#dibujarElipse#0;class#Asteroid#0" />
@@ -95,36 +91,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Nave.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="85" column="34" lean-forward="true" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+            <state relative-caret-position="191">
+              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Sprite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#2279#2280#0" expanded="true" />
-                <element signature="e#2307#2308#0" expanded="true" />
-                <element signature="e#2346#2347#0" expanded="true" />
-                <element signature="e#2380#2381#0" expanded="true" />
-                <element signature="method#pintarPixelGrosor#0;class#Sprite#0" />
-                <element signature="method#dibujarLinea#0;class#Sprite#0" />
               </folding>
             </state>
           </provider>
@@ -141,13 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dy1</find>
-      <find>Circulo</find>
-      <find>CirculoPuntoMedio</find>
-      <find>drawPixel</find>
-      <find>Circulo8Lados</find>
-      <find>red</find>
-      <find>pendiente</find>
       <find>putPixel</find>
       <find>frame.</find>
       <find>canvas.</find>
@@ -171,10 +134,20 @@
       <find>angulo</find>
       <find>start</find>
       <find>colisiona</find>
+      <find>rellenar</find>
+      <find>fondo</find>
+      <find>dibujar</find>
+      <find>out</find>
+      <find>System.out</find>
+      <find>print</find>
+      <find>Thread.sleep</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -207,11 +180,12 @@
         <option value="$PROJECT_DIR$/src/com/company/proyecto/BufferGrafico.java" />
         <option value="$PROJECT_DIR$/src/com/company/proyecto/Ventana.java" />
         <option value="$PROJECT_DIR$/src/com/company/proyecto/PokemonLetras.java" />
-        <option value="$PROJECT_DIR$/src/com/company/proyecto/Nave.java" />
-        <option value="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" />
         <option value="$PROJECT_DIR$/src/com/company/proyecto/Proyectil.java" />
-        <option value="$PROJECT_DIR$/src/com/company/proyecto/Proyecto.java" />
+        <option value="$PROJECT_DIR$/src/com/company/practicas/Inundacion.java" />
+        <option value="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" />
         <option value="$PROJECT_DIR$/src/com/company/proyecto/Asteroid.java" />
+        <option value="$PROJECT_DIR$/src/com/company/proyecto/Nave.java" />
+        <option value="$PROJECT_DIR$/src/com/company/proyecto/Proyecto.java" />
       </list>
     </option>
   </component>
@@ -221,6 +195,7 @@
     <option name="width" value="1226" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -431,13 +406,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/proyecto/Nave.java</url>
-          <line>41</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/proyecto/Nave.java</url>
-          <line>45</line>
+          <line>47</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
@@ -496,28 +471,6 @@
           <caret line="13" column="53" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/practicas/ScanLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#dibujarLinea#0;class#ScanLine#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/practicas/Inundacion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#dibujarLinea#0;class#Inundacion#0" />
           </folding>
         </state>
       </provider>
@@ -616,16 +569,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/BufferVentana.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/BufferGrafico.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Ventana.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/practicas/BufferedWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/practicas/Elipse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -689,10 +632,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/practicas/BufferedWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/practicas/Inundacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#dibujarLinea#0;class#Inundacion#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Proyectil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/practicas/ScanLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#dibujarLinea#0;class#ScanLine#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Asteroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="175" column="23" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#dibujarElipse#0;class#Asteroid#0" />
+            <element signature="method#pintarPixelGrosor#0;class#Asteroid#0" />
+            <element signature="method#pintarCirculo#0;class#Asteroid#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Sprite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#328#329#0" expanded="true" />
@@ -715,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Nave.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="85" column="34" lean-forward="true" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+        <state relative-caret-position="191">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -725,8 +723,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Proyecto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="108" column="30" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
+        <state relative-caret-position="334">
+          <caret line="165" column="33" selection-start-line="165" selection-start-column="33" selection-end-line="165" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2268#2269#0" expanded="true" />
@@ -735,29 +733,6 @@
             <element signature="e#2388#2389#0" expanded="true" />
             <element signature="e#2442#2443#0" expanded="true" />
             <element signature="e#2485#2486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Proyectil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Asteroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#dibujarElipse#0;class#Asteroid#0" />
-            <element signature="method#pintarPixelGrosor#0;class#Asteroid#0" />
-            <element signature="method#pintarCirculo#0;class#Asteroid#0" />
           </folding>
         </state>
       </provider>

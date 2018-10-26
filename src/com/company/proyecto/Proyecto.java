@@ -111,8 +111,6 @@ public class Proyecto extends JFrame implements KeyListener, Runnable{
                 break;
         }
         if (nave != null) {
-            System.out.println(anguloNave+"°");
-
             nave.setY(nave.getY() + incY);
             nave.setX(nave.getX() + incX);
         }
@@ -149,7 +147,6 @@ public class Proyecto extends JFrame implements KeyListener, Runnable{
                     isInitialized = true;
                 } else {
                     if (nave != null) {
-                        Thread.sleep(1);
                         if (nave.colisiona(asteroid)) {
                             nave = null;
                             isAlive = false;
@@ -166,7 +163,6 @@ public class Proyecto extends JFrame implements KeyListener, Runnable{
                         }
                     }
                 }
-                Thread.sleep(1);
                 paint(getGraphics());
             }
         } catch (Exception ex ){

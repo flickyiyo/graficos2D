@@ -1,5 +1,7 @@
 package com.company.proyecto;
 
+import com.company.practicas.Position;
+
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
@@ -16,7 +18,7 @@ public class Nave extends Sprite {
     public Nave (int x, int y) {
         this.width = 21;
         this.height = 36;
-        this.buffer = new BufferedImage(30, 30, BufferedImage.TYPE_INT_ARGB);
+        this.buffer = new BufferedImage(28, 28, BufferedImage.TYPE_INT_ARGB);
         this.pixel = new BufferedImage(1,1, BufferedImage.TYPE_INT_RGB);
         this.gPixel = pixel.getGraphics();
         this.gBuffer = buffer.getGraphics();
@@ -54,7 +56,6 @@ public class Nave extends Sprite {
     }
 
     public int getXRotada(int x, int y) {
-        System.out.println(x + " " + y);
         float cos = (float) Math.cos(Math.toRadians(angulo));
         float sin = (float) Math.sin(Math.toRadians(angulo));
         x -= getWidth()/2;
@@ -101,6 +102,8 @@ public class Nave extends Sprite {
         dibujarLinea((int)p1l1.getX(), (int)p1l1.getY(), (int)p2l1.getX(), (int)p2l1.getY());
         dibujarLinea((int)p1l2.getX(), (int)p1l2.getY(), (int)p2l2.getX(), (int)p2l2.getY());
         dibujarLinea((int)p1l3.getX(), (int)p1l3.getY(), (int)p2l3.getX(), (int)p2l3.getY());
+        Color rosa = new Color(221,150,156);
+        rellenar(new Position(cy, cx), rosa);
         //*/
         /*dibujarLinea(10, 0, 0, 35);
         dibujarLinea(10, 0, 20, 35);
