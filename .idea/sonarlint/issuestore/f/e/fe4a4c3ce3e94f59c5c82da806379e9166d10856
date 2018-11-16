@@ -1,8 +1,7 @@
 
 Csquid:S1905""&Remove this unnecessary cast to "int".(‚ÄüW8òü†’é,
-Ssquid:S1854"5Remove this useless assignment to local variable "y".(ò‚œ˜8”’é,
-Ksquid:S1948"(Make "buffer" transient or serializable.(’ê áıÿÿÿÿ8íÙ’é,
-Psquid:S1905"-Remove this unnecessary cast to "Graphics2D".(ŸĞÜØúÿÿÿÿ8íÙ’é,
 Qsquid:S1068".Remove this unused "graphPixel" private field.(Øç†©ÿÿÿÿÿ8íÙ’é,
-Osquid:S1948",Make "graphPixel" transient or serializable.(Øç†©ÿÿÿÿÿ8íÙ’é,
+Ksquid:S1948"(Make "buffer" transient or serializable.(’ê áıÿÿÿÿ8íÙ’é,
 qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(‚Š®Éıÿÿÿÿ8íÙ’é,
+Psquid:S1905"-Remove this unnecessary cast to "Graphics2D".(ŸĞÜØúÿÿÿÿ8íÙ’é,
+Osquid:S1948",Make "graphPixel" transient or serializable.(Øç†©ÿÿÿÿÿ8íÙ’é,

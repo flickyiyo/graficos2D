@@ -29,7 +29,7 @@ public class Sprite {
     }
 
     int grosor = 1;
-    int width, height;
+    public int width, height;
     protected int x, y;
     public BufferedImage rotateImage(BufferedImage img, int angle){
         int diag = (int) Math.sqrt(img.getWidth()*img.getWidth()+img.getHeight()*img.getHeight());
@@ -193,52 +193,27 @@ public class Sprite {
         }
     }
     public void dibujarLinea(int x1, int y1, int x2, int y2) {
-        int a, b, pk, aux, yk = y1, xk = x1;
-        if (Math.abs(x2 - x1) > Math.abs(y2 - y1)) {
-            a = 2 * Math.abs(y2 - y1);
-            b = (2 * Math.abs(y2 - y1)) - (2 * Math.abs(x2 - x1));
-            pk = (2 * Math.abs(y2 - y1)) - (Math.abs(x2 - x1));
-            if (x2 < x1) {
-                aux = x2;
-                x2 = x1;
-                x1 = aux;
-            }
-            for (xk = x1; xk < x2; xk++) {
-                if (pk < 0) {
-                    putPixel(xk, yk, Color.BLACK);
-                    pk += a;
-                } else {
-                    if (y2 > y1)
-                        putPixel(xk, ++yk, Color.BLACK);
-                    else
-                        putPixel(xk, --yk, Color.BLACK);
-
-                    pk += b;
-                }
-            }
-        } else if (Math.abs(x2 - x1) < Math.abs(y2 - y1)) {
-            a = 2 * Math.abs(x2 - x1);
-            b = (2 * Math.abs(x2 - x1)) - (2 * Math.abs(y2 - y1));
-            pk = (2 * Math.abs(x2 - x1)) - (Math.abs(y2 - y1));
-            if (y2 < y1) {
-                aux = y2;
-                y2 = y1;
-                y1 = aux;
-            }
-            for (yk = y1; yk < y2; yk++) {
-                if (pk < 0) {
-                    putPixel(xk, yk, Color.BLACK);
-                    pk += a;
-                } else {
-                    if (x2 > x1)
-                        putPixel(++xk, yk, Color.BLACK);
-                    else
-                        putPixel(--xk, yk, Color.BLACK);
-                    pk += b;
-                }
+        dibujarLinea(x1,y1,x2,y2, Color.BLACK);
+    }
+        public void dibujarLinea (int x0, int y0, int x1, int y1, Color color) {
+            int dx = x1 - x0;
+            int dy = y1 - y0;
+            int steps;
+            if (Math.abs(dx) > Math.abs(dy))
+                steps = Math.abs(dx);
+            else
+                steps = Math.abs(dy);
+            float xi = (float)dx/(float)steps;
+            float yi = (float)dy/(float)steps;
+            float x = x0, y = y0;
+            putPixel((int)x, (int)y, color);
+            for (int i = 1; i < steps; i++) {
+                x+=xi;
+                y+=yi;
+                putPixel((int)x, (int)y, color);
             }
         }
-    }
+
 
     public void putPixel(int x, int y, Color c) {
         pixel.setRGB(0,0, c.getRGB());

@@ -45,3 +45,19 @@ R
 "src/com/company/proyecto/Nave.java,9/a/9aff97a8c4a1930b981f3183b34d357ecf170a09
 V
 &src/com/company/proyecto/Proyecto.java,3/3/33ced48e922b944f41972b310b31067f9f107905
+[
++src/com/company/proyecto/PokemonLetras.java,3/0/3076041624b1b7d966d653a5c15b99164b26d657
+V
+&src/com/company/proyecto/Asteroid.java,9/0/903f60409a7b216a82b404c7ebcbc73d10aa75f0
+W
+'src/com/company/proyecto/Proyectil.java,e/6/e692a67f3de8ac585eae7a437c69cfd90c5e3f02
+T
+$src/com/company/proyecto/Sprite.java,7/e/7e1de36bd8958cd9e07f65ba0f62c0e30ecf3ef0
+O
+src/parcial3/utils/Punto3D.java,6/7/67db30d06aa7be0542ff1f3975d07b79e258e2d1
+R
+"src/parcial3/perspectiva/Cubo.java,5/b/5b8b9aa3c75c8b81bb20ab2189f3b17adb15c6ac
+S
+#src/parcial3/paralela/Paralela.java,9/4/941983f26cb94c5d23f40a39b72d2f5b13208331
+a
+1src/parcial3/perspectiva/PerspectivaParalela.java,c/6/c6d7fc527ac3064493896f397f54a7fc6a45f2fb

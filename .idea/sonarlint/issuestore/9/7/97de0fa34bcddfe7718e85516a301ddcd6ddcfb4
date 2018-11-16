@@ -1,30 +1,29 @@
 
-Psquid:S1905"-Remove this unnecessary cast to "Graphics2D".(ΠάΨϊÿÿÿÿ8ψ¥†ωθ,
-Msquid:S00108?")Either remove or fill this block of code.(΅»Άόωÿÿÿÿ8ρΰϊθ,
-dsquid:UselessImportCheck"9Remove this unused import 'java.awt.image.ImageObserver'.(¥Στ”8όΌωθ,
-<squid:S1190A"Use a different name than "_".(’Έ…¶8ςτύωθ,
-isquid:CommentedOutCodeLineO"<This block of commented-out lines of code should be removed.(έξΝά8ξΘωωθ,
-Dsquid:S1172>"&Remove these unused method parameters.(ίΓÿρ8ρΰϊθ,
->squid:S1659
-" Declare "y1" on a separate line.(ΤΑª8”»…ϊθ,
-Hsquid:S00108A")Either remove or fill this block of code.(’Έ…¶8Τ‚ύωθ,
-qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(°έσωÿÿÿÿ8ψ¥†ωθ,
-Ksquid:S1948"(Make "buffer" transient or serializable.(’κ αύÿÿÿÿ8ψ¥†ωθ,
-Osquid:S1948	",Make "graphPixel" transient or serializable.(Ψη†©ÿÿÿÿÿ8ψ¥†ωθ,
-Qsquid:S1068	".Remove this unused "graphPixel" private field.(Ψη†©ÿÿÿÿÿ8ψ¥†ωθ,
->squid:S1659
-" Declare "y0" on a separate line.(ΤΑª8”»…ϊθ,
->squid:S1659
-" Declare "x1" on a separate line.(ΤΑª8”»…ϊθ,
-Hsquid:S001087")Either remove or fill this block of code.(”ύΎ8ΰΩϊθ,
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(Λήδ°8¶πι,
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(Λιÿωÿÿÿÿ8¶πι,
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ΐύ8¶πι,
+Psquid:S1905"-Remove this unnecessary cast to "Graphics2D".(ΠάΨϊÿÿÿÿ8ψ¥†ωθ,
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.( ®ΨΟÿÿÿÿÿ8¶πι,
-Isquid:S1481""&Remove this unused "x" local variable.(Ίανάώÿÿÿÿ8¶πι,
 Isquid:S1481#"&Remove this unused "y" local variable.(Ολ§ώÿÿÿÿ8¶πι,
+Hsquid:S00108A")Either remove or fill this block of code.(’Έ…¶8Τ‚ύωθ,
+Qsquid:S1068	".Remove this unused "graphPixel" private field.(Ψη†©ÿÿÿÿÿ8ψ¥†ωθ,
+Hsquid:S001087")Either remove or fill this block of code.(”ύΎ8ΰΩϊθ,
+>squid:S1659
+" Declare "x1" on a separate line.(ΤΑª8”»…ϊθ,
+isquid:CommentedOutCodeLineO"<This block of commented-out lines of code should be removed.(έξΝά8ξΘωωθ,
+Msquid:S00108?")Either remove or fill this block of code.(΅»Άόωÿÿÿÿ8ρΰϊθ,
+Dsquid:S1172>"&Remove these unused method parameters.(ίΓÿρ8ρΰϊθ,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ΐύ8¶πι,
+Isquid:S1481""&Remove this unused "x" local variable.(Ίανάώÿÿÿÿ8¶πι,
+>squid:S1659
+" Declare "y0" on a separate line.(ΤΑª8”»…ϊθ,
 Isquid:S1172!"&Remove these unused method parameters.(λαΖοϊÿÿÿÿ8¶πι,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Λιÿωÿÿÿÿ8¶πι,
+>squid:S1659
+" Declare "y1" on a separate line.(ΤΑª8”»…ϊθ,
+Osquid:S1948	",Make "graphPixel" transient or serializable.(Ψη†©ÿÿÿÿÿ8ψ¥†ωθ,
+qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(°έσωÿÿÿÿ8ψ¥†ωθ,
+<squid:S1190A"Use a different name than "_".(’Έ…¶8ςτύωθ,
+Ksquid:S1948"(Make "buffer" transient or serializable.(’κ αύÿÿÿÿ8ψ¥†ωθ,

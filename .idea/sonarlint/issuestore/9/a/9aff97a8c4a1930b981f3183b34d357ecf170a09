@@ -1,18 +1,14 @@
 
-usquid:S3776)"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ïÄÖÖûÿÿÿÿ8ŸÚıùé,
-=squid:S1659*" Declare "pk" on a separate line.(‹¾Ø,8ŸÚıùé,
-"squid:ClassVariableVisibilityCheck	"UMake posicionY a static final constant or non-public and provide accessors if needed.(êÍ¬íúÿÿÿÿ8˜¹úé,
-dsquid:UselessImportCheck"9Remove this unused import 'java.awt.image.ImageObserver'.(¥Óô”8¸èúé,
-=squid:S1659*" Declare "xk" on a separate line.(‹¾Ø,8ŸÚıùé,
->squid:S1659*"!Declare "aux" on a separate line.(‹¾Ø,8ŸÚıùé,
-"squid:ClassVariableVisibilityCheck
-"SMake ventana a static final constant or non-public and provide accessors if needed.(®ƒÂüÿÿÿÿ8ş‘İùé,
-"squid:ClassVariableVisibilityCheck	"UMake posicionX a static final constant or non-public and provide accessors if needed.(êÍ¬íúÿÿÿÿ8…ÑŠúé,
-‹"squid:ClassVariableVisibilityCheck"QMake fondo a static final constant or non-public and provide accessors if needed.(ÌˆÓóúÿÿÿÿ8³Æáùé,
-‡"squid:ClassVariableVisibilityCheck"RMake buffer a static final constant or non-public and provide accessors if needed.(Ú¹¢Î8§‘ãùé,
-Jsquid:S1659	"'Declare "posicionY" on a separate line.(êÍ¬íúÿÿÿÿ8˜¹úé,
-‰"squid:ClassVariableVisibilityCheck"TMake gVentana a static final constant or non-public and provide accessors if needed.(¯£Ï©8İ¤àùé,
-"squid:ClassVariableVisibilityCheck"SMake gBuffer a static final constant or non-public and provide accessors if needed.(ˆÁéœıÿÿÿÿ8‹ôîùé,
-<squid:S1659*"Declare "b" on a separate line.(‹¾Ø,8ŸÚıùé,
-Œ"squid:ClassVariableVisibilityCheck"RMake gFondo a static final constant or non-public and provide accessors if needed.(À†üşÿÿÿÿ8³Æáùé,
-=squid:S1659*" Declare "yk" on a separate line.(‹¾Ø,8ŸÚıùé,
+_squid:HiddenFieldCheckR"6Rename "cx" which hides the field declared at line 17.(ßÕ½ü8üª‘ôê,
+nsquid:CommentedOutCodeLinej"<This block of commented-out lines of code should be removed.(„´‚îûÿÿÿÿ8ŠÏğÌê,
+Isquid:S1905:"&Remove this unnecessary cast to "int".(ÑÒÇüÿÿÿÿ8ÑÜÕóê,
+hsquid:S2184I"ECast one of the operands of this subtraction operation to a "double".(Ğå´÷ùÿÿÿÿ8àÔõê,
+^squid:HiddenFieldCheckG"6Rename "cy" which hides the field declared at line 17.(ÙĞû~8ˆÔõê,
+^squid:HiddenFieldCheckS"6Rename "cy" which hides the field declared at line 17.(ÙĞû~8üª‘ôê,
+Fsquid:S1148b"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8”ñ³õê,
+_squid:HiddenFieldCheckF"6Rename "cx" which hides the field declared at line 17.(ßÕ½ü8ˆÔõê,
+csquid:S2184H"ECast one of the operands of this subtraction operation to a "double".(Ìßê8İÀÔõê,
+nsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(æñÓ øÿÿÿÿ8éÍóê,
+dsquid:S2142a"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8”ñ³õê,
+dsquid:UselessImportCheck"9Remove this unused import 'java.awt.image.ImageObserver'.(¥Óô”8¸èúé,
+>squid:S1659" Declare "cy" on a separate line.(¯¸µ‘8ŞçÏóê,

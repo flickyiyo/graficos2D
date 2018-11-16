@@ -11,8 +11,8 @@ public class Asteroid extends Sprite implements Runnable {
     JFrame parent;
     boolean shouldStop = false;
     int tipoFigura;
-    int []positionsX = {30, 450, 30, 450};
-    int []positionsY = {30, 450, 30, 450};
+    int []positionsX = {30, 420, 30, 420};
+    int []positionsY = {30, 420, 30, 420};
     int times = 1;
     Thread thread;
     public Asteroid() {
@@ -32,8 +32,9 @@ public class Asteroid extends Sprite implements Runnable {
         this.width = buffer.getWidth();
         this.y = positionsY[rndY];
         this.height = buffer.getHeight();
-        this.angulo = 0;
-
+        this.angulo = -90;
+        this.positionsX = new int[]{-width, 500+width,-width,500+width};
+        this.positionsY = new int[]{-height, 500+height,-height,500+height};
         thread = new Thread(this);
     }
 
@@ -112,6 +113,12 @@ public class Asteroid extends Sprite implements Runnable {
         }
     }
 
+    @Override
+    public void putPixel(int x, int y, Color c) {
+        //if (x+this.x < 0 || x+this.x > parent.getWidth() || y+this.y < 0 || y+this.y > parent.getHeight()) {return;}
+        super.putPixel(x, y, c);
+    }
+
     public void pintarPixelGrosor(int x, int y, int grosor) {
         Position p = new Position(x, y);
         int yInicial = p.getY() - (grosor/2);
@@ -157,17 +164,17 @@ public class Asteroid extends Sprite implements Runnable {
                 this.x += despX;
                 this.y += despY;
                 if (
-                        (this.x > (parent.getWidth() + this.width)
-                        || this.y > (parent.getHeight() + this.height))
-                        || this.x < - width || this.y < -height
+                        (this.x > (parent.getWidth() + 2*this.width)
+                        || this.y > (parent.getHeight() + 2*this.height))
+                        || this.x < - width || this.y < -2*height
                 ) {
                     Random rnd = new Random();
                     int rndX = rnd.nextInt(4);
                     int rndY = rnd.nextInt(4);
-                    if (rndX%2==0) despX = rnd.nextInt(5);
-                    else despX = -rnd.nextInt(5);
-                    if (rndY%2==0) despY = rnd.nextInt(5);
-                    else despY = -rnd.nextInt(5);
+                    if (rndX%2==0) despX = rnd.nextInt(5) + 2;
+                    else despX = -rnd.nextInt(5)-2;
+                    if (rndY%2==0) despY = rnd.nextInt(5) + 2;
+                    else despY = -rnd.nextInt(5) -2 ;
                     this.x = positionsX[rndX];
                     this.y = positionsY[rndY];
                 }

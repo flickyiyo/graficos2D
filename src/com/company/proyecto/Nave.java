@@ -40,12 +40,6 @@ public class Nave extends Sprite {
     @Override
     public void setAngulo(int angulo) {
         this.angulo = angulo;
-        /*rotarRespectoAngulo(p1l1);
-        rotarRespectoAngulo(p2l1);
-        rotarRespectoAngulo(p1l2);
-        rotarRespectoAngulo(p2l2);
-        rotarRespectoAngulo(p1l3);
-        rotarRespectoAngulo(p2l3);*/
     }
 
 

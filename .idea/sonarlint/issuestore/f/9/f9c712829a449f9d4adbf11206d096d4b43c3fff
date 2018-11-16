@@ -1,5 +1,6 @@
 
+Tsquid:S1854"6Remove this useless assignment to local variable "p0".(δί‚Τ8Λ¬Ζªι,
 Csquid:S1905!"&Remove this unnecessary cast to "int".(‚ΔόW8Λ¬Ζªι,
 Ssquid:S1854"5Remove this useless assignment to local variable "y".(ς‚8Λ¬Ζªι,
-Tsquid:S1854"6Remove this useless assignment to local variable "p0".(δί‚Τ8Λ¬Ζªι,
 Esquid:S1481"'Remove this unused "p0" local variable.(δί‚Τ8Λ¬Ζªι,
+qsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(°•ΰϋÿÿÿÿ8£•Θ κ,
