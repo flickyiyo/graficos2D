@@ -1,14 +1,14 @@
 
-_squid:HiddenFieldCheckR"6Rename "cx" which hides the field declared at line 17.(ßÕ½ü8üª‘ôê,
-nsquid:CommentedOutCodeLinej"<This block of commented-out lines of code should be removed.(„´‚îûÿÿÿÿ8ŠÏğÌê,
-Isquid:S1905:"&Remove this unnecessary cast to "int".(ÑÒÇüÿÿÿÿ8ÑÜÕóê,
-hsquid:S2184I"ECast one of the operands of this subtraction operation to a "double".(Ğå´÷ùÿÿÿÿ8àÔõê,
-^squid:HiddenFieldCheckG"6Rename "cy" which hides the field declared at line 17.(ÙĞû~8ˆÔõê,
-^squid:HiddenFieldCheckS"6Rename "cy" which hides the field declared at line 17.(ÙĞû~8üª‘ôê,
-Fsquid:S1148b"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8”ñ³õê,
-_squid:HiddenFieldCheckF"6Rename "cx" which hides the field declared at line 17.(ßÕ½ü8ˆÔõê,
 csquid:S2184H"ECast one of the operands of this subtraction operation to a "double".(Ìßê8İÀÔõê,
-nsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(æñÓ øÿÿÿÿ8éÍóê,
-dsquid:S2142a"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8”ñ³õê,
+_squid:HiddenFieldCheckF"6Rename "cx" which hides the field declared at line 17.(ßÕ½ü8ˆÔõê,
+Fsquid:S1148b"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8”ñ³õê,
+hsquid:S2184I"ECast one of the operands of this subtraction operation to a "double".(Ğå´÷ùÿÿÿÿ8àÔõê,
+^squid:HiddenFieldCheckS"6Rename "cy" which hides the field declared at line 17.(ÙĞû~8üª‘ôê,
+_squid:HiddenFieldCheckR"6Rename "cx" which hides the field declared at line 17.(ßÕ½ü8üª‘ôê,
 dsquid:UselessImportCheck"9Remove this unused import 'java.awt.image.ImageObserver'.(¥Óô”8¸èúé,
+Isquid:S1905:"&Remove this unnecessary cast to "int".(ÑÒÇüÿÿÿÿ8ÑÜÕóê,
+nsquid:CommentedOutCodeLinej"<This block of commented-out lines of code should be removed.(„´‚îûÿÿÿÿ8ŠÏğÌê,
+^squid:HiddenFieldCheckG"6Rename "cy" which hides the field declared at line 17.(ÙĞû~8ˆÔõê,
+dsquid:S2142a"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8”ñ³õê,
+nsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(æñÓ øÿÿÿÿ8éÍóê,
 >squid:S1659" Declare "cy" on a separate line.(¯¸µ‘8ŞçÏóê,

@@ -1,0 +1,16 @@
+
+Bsquid:S1659F"$Declare "tworx2" on a separate line.(Æ„Õ8¤î”ë,
+jsquid:CommentedOutCodeLineŸ"<This block of commented-out lines of code should be removed.(ÔŞµÍ8¤î”ë,
+Ksquid:S1185u"(Remove this method to simply inherit it.(İŞÓ¾ùÿÿÿÿ8–•ë,
+nsquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(íÂÅ¹ÿÿÿÿÿ8–•ë,
+?squid:S1659F"!Declare "ry2" on a separate line.(Æ„Õ8¤î”ë,
+Bsquid:S1659F"$Declare "twory2" on a separate line.(Æ„Õ8¤î”ë,
+=squid:S1659E"Declare "y" on a separate line.(®À8áİæê,
+Gsquid:S1148¶"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¤î”ë,
+Dsquid:S1905‘"&Remove this unnecessary cast to "int".(‚ÄüW8¤î”ë,
+>squid:S1659E" Declare "py" on a separate line.(®À8¤î”ë,
+esquid:S2142µ"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¤î”ë,
+]squid:S1161z":Add the "@Override" annotation above this method signature(ãŠ‚×úÿÿÿÿ8¤î”ë,
+>squid:S1659E" Declare "px" on a separate line.(®À8áİæê,
+Fsquid:S1481Š"'Remove this unused "p0" local variable.(äß‚Ô8¤î”ë,
+=squid:S1659E"Declare "p" on a separate line.(®À8÷×÷ê,

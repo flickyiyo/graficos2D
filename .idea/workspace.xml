@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a03554dd-0b89-4863-8f10-90e1b76f0194" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/parcial3/perspectiva/Proyeccion.java" afterDir="false" />
+    <list default="true" id="a03554dd-0b89-4863-8f10-90e1b76f0194" name="Default Changelist" comment="Graficas 3D perronas&#10;&#10;Paralela me la pelas">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/301ae9100c6051a363bbf803963d00a6b9aefcd8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/301ae9100c6051a363bbf803963d00a6b9aefcd8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33ced48e922b944f41972b310b31067f9f107905" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33ced48e922b944f41972b310b31067f9f107905" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442e972eb2a1ef78485dc751fb317e3877b8ba50" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442e972eb2a1ef78485dc751fb317e3877b8ba50" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54178f84d698d758429571bc663c97b76694c29b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54178f84d698d758429571bc663c97b76694c29b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c096254996b2acadd8e9ace506b70642649bfa0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c096254996b2acadd8e9ace506b70642649bfa0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a98ec0a544bc64ffb570fa42a91f847a7ee2f63" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a98ec0a544bc64ffb570fa42a91f847a7ee2f63" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97de0fa34bcddfe7718e85516a301ddcd6ddcfb4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97de0fa34bcddfe7718e85516a301ddcd6ddcfb4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a17e98121d5b557db79681913bb5bc935a171bc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a17e98121d5b557db79681913bb5bc935a171bc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6366d159b9a343b2616a78a0b7e7170a4e17c3aa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6366d159b9a343b2616a78a0b7e7170a4e17c3aa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9aff97a8c4a1930b981f3183b34d357ecf170a09" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9aff97a8c4a1930b981f3183b34d357ecf170a09" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8422ada9e0d6505d8809ecb9c37d1fb6cb31370" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8422ada9e0d6505d8809ecb9c37d1fb6cb31370" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9c712829a449f9d4adbf11206d096d4b43c3fff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9c712829a449f9d4adbf11206d096d4b43c3fff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe4a4c3ce3e94f59c5c82da806379e9166d10856" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe4a4c3ce3e94f59c5c82da806379e9166d10856" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Asteroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Asteroid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Nave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Nave.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/PokemonLetras.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Proyectil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Proyectil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Proyecto$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Proyecto$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Proyecto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Proyecto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Sprite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Sprite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/proyecto/Asteroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/proyecto/Asteroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/proyecto/Nave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/proyecto/Nave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/proyecto/PokemonLetras.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/proyecto/Proyectil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/proyecto/Proyectil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/proyecto/Proyecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/proyecto/Proyecto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,35 +20,37 @@
     <session id="-1725153268">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="231" />
+          <entry key="java" value="234" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="231" />
+          <entry key="JAVA" value="234" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="60" />
-          <entry key="java" value="37219" />
+          <entry key="java" value="37300" />
+          <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37219" />
-          <entry key="PLAIN_TEXT" value="60" />
+          <entry key="JAVA" value="37300" />
+          <entry key="PLAIN_TEXT" value="110" />
         </counts>
       </usages-collector>
     </session>
@@ -83,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parcial3/perspectiva/Proyeccion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="1170">
+              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,8 +75,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/parcial3/perspectiva/Paralela.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="146">
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/parcial3/perspectiva/CuboProyeccion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parcial3/perspectiva/CuboParalela.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="74" column="94" lean-forward="true" selection-start-line="74" selection-start-column="94" selection-end-line="74" selection-end-column="94" />
+            <state relative-caret-position="1020">
+              <caret line="74" column="94" selection-start-line="74" selection-start-column="94" selection-end-line="74" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,13 +111,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parcial3/Sprite3D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
+            <state relative-caret-position="300">
               <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/parcial3/transformaciones/Rotacion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -177,6 +176,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Edgar Ivan Vazquez Camargo &lt;edgar21_9@hotmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -229,13 +233,14 @@
         <option value="$PROJECT_DIR$/src/parcial3/perspectiva/PerspectivaParalela.java" />
         <option value="$PROJECT_DIR$/src/parcial3/perspectiva/Proyeccion.java" />
         <option value="$PROJECT_DIR$/src/parcial3/perspectiva/CuboParalela.java" />
+        <option value="$PROJECT_DIR$/src/parcial3/transformaciones/Rotacion.java" />
         <option value="$PROJECT_DIR$/src/parcial3/perspectiva/Paralela.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="668" />
+    <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -246,8 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,27 +275,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="parcial3" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SegundoParcial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SegundoParcial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="parcial3" type="462c0819:PsiDirectoryNode" />
-              <item name="paralela" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SegundoParcial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SegundoParcial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="parcial3" type="462c0819:PsiDirectoryNode" />
-              <item name="perspectiva" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="SearchEverywhereHistoryKey" value="proyecto&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/proyecto/Proyecto.java&#10;bufferedWindow&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/practicas/BufferedWindow.java&#10;puntomedio&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/LineaPuntoMedio.java&#10;rectangul&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/Rectangulo.java&#10;modeloma&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/ModeloMatematico.java" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -376,7 +368,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.Bresenham" />
-      <item itemvalue="Application.Proyeccion" />
       <item itemvalue="Application.Paralela" />
       <item itemvalue="Application.Proyeccion" />
       <item itemvalue="Application.Paralela (1)" />
@@ -402,6 +393,14 @@
       <option name="presentableId" value="Default" />
       <updated>1539994257212</updated>
     </task>
+    <task id="LOCAL-00001" summary="Graficas 3D perronas&#10;&#10;Paralela me la pelas">
+      <created>1542408349745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542408349745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -409,9 +408,9 @@
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
-      <window_info id="Favorites" order="1" sideWeight="0.50503355" side_tool="true" visible="true" weight="0.29685265" />
+      <window_info id="Favorites" order="1" sideWeight="0.5044586" side_tool="true" weight="0.29685265" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49496645" visible="true" weight="0.29685265" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.4955414" visible="true" weight="0.30543634" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3299363" />
@@ -436,6 +435,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Graficas 3D perronas&#10;&#10;Paralela me la pelas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graficas 3D perronas&#10;&#10;Paralela me la pelas" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -454,12 +457,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/parcial3/perspectiva/CuboProyeccion.java</url>
-          <line>112</line>
-          <properties />
-          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/parcial3/perspectiva/Paralela.java</url>
@@ -539,13 +536,6 @@
           <folding>
             <element signature="method#dibujarLinea#0;class#GrosorLinea#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/practicas/CirculoRectangulares.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -646,13 +636,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/PokemonLetras.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/PokemonLetras.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/practicas/Window.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -749,13 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parcial3/utils/Punto3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parcial3/utils/Punto3D.java" />
     <entry file="file://$PROJECT_DIR$/src/parcial3/paralela/Paralela.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -778,54 +756,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parcial3/perspectiva/CuboProyeccion.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/practicas/CirculoRectangulares.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
+        <state relative-caret-position="300">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parcial3/perspectiva/Proyeccion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parcial3/Sprite3D.java">
+    <entry file="file://$PROJECT_DIR$/src/parcial3/perspectiva/CuboProyeccion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="1320">
+          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parcial3/perspectiva/CuboParalela.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="74" column="94" lean-forward="true" selection-start-line="74" selection-start-column="94" selection-end-line="74" selection-end-column="94" />
+        <state relative-caret-position="1020">
+          <caret line="74" column="94" selection-start-line="74" selection-start-column="94" selection-end-line="74" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parcial3/perspectiva/Proyeccion.java">
+    <entry file="file://$PROJECT_DIR$/src/parcial3/Sprite3D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="300">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parcial3/transformaciones/Rotacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parcial3/perspectiva/Paralela.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="146">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

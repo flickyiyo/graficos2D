@@ -1,0 +1,10 @@
+
+qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(¢¶õêÿÿÿÿÿ8€ß¬ëð,
+rsquid:S1450"TRemove the "fondo" field and declare it as a local variable in the relevant methods.(ª†ÝÜ8Û¿ˆÇñ,
+Isquid:S1948"&Make "cubo" transient or serializable.(´€ÛÊþÿÿÿÿ8Ü›¯õñ,
+¤squid:S1186R"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(˜Â½€øÿÿÿÿ8´ýÓÆñ,
+Esquid:S1948"'Make "fondo" transient or serializable.(ª†ÝÜ8ÝÉ‰¯ñ,
+\"squid:SwitchLastCaseIsDefaultCheckA""Add a default case to this switch.(ù‚Óøÿÿÿÿ8¥“ Çñ,
+\"squid:SwitchLastCaseIsDefaultCheck/""Add a default case to this switch.(ù‚Óøÿÿÿÿ8ÅÝ¥õñ,
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßß¹­üÿÿÿÿ
+Ÿsquid:S1186)"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ýþ8“º…Çñ,

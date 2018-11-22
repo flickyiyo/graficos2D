@@ -1,0 +1,9 @@
+
+\"squid:SwitchLastCaseIsDefaultCheck7""Add a default case to this switch.(ù‚Óøÿÿÿÿ8Ïë¹Ññ,
+¤squid:S1186H"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(˜Â½€øÿÿÿÿ8Ïë¹Ññ,
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³ûéÎıÿÿÿÿ8ŒÊ¹Ññ,
+Ÿsquid:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ış8Ïë¹Ññ,
+lsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(µ²ú¼8Ïë¹Ññ,
+rsquid:S1450"TRemove the "fondo" field and declare it as a local variable in the relevant methods.(ª†İÜ8Ïë¹Ññ,
+Esquid:S1948"'Make "fondo" transient or serializable.(ª†İÜ8Ïë¹Ññ,
+Ÿsquid:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷—8Ïë¹Ññ,
