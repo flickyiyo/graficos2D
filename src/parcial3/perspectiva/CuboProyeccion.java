@@ -9,7 +9,6 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 
 public class CuboProyeccion extends Sprite3D {
-    public JFrame parent;
 
     public CuboProyeccion(int x, int y, int width, int height) {
         super(x, y, width, height);
@@ -18,7 +17,7 @@ public class CuboProyeccion extends Sprite3D {
     public void setParent(JFrame parent) {
         this.parent = parent;
     }
-
+    @Override
     public void dibujarCubo(int x1, int y1, int z1, int x2, int y2, int z2, Point3D plano) {
         this.buffer = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
         this.pixel = new BufferedImage(1,1, BufferedImage.TYPE_INT_RGB);

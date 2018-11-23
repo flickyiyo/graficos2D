@@ -10,7 +10,7 @@ public class Sprite {
     protected Graphics gPixel;
     protected BufferedImage buffer;
     protected Graphics gBuffer;
-    int angulo;
+    protected int angulo;
 
     public int getAngulo() {
         return angulo;

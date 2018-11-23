@@ -21,6 +21,74 @@ public class Sprite3D extends Sprite {
         this.gBuffer = buffer.getGraphics();
     }
 
+    public void dibujarCubo(int x1, int y1, int z1, int x2, int y2, int z2, Point3D plano) {
+        System.out.println("asdadsadasdasd");
+        this.buffer = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+        this.pixel = new BufferedImage(1,1, BufferedImage.TYPE_INT_RGB);
+        this.gPixel = pixel.getGraphics();
+        this.gBuffer = buffer.getGraphics();
+        int centerx = this.width /2;
+        int centery = this.height / 2;
+        Point3D vertices[] = new Point3D[]{
+                new Point3D(x1, y1, z1),
+                new Point3D(x2, y1, z1),
+                new Point3D(x1, y2, z1),
+                new Point3D(x2, y2, z1),
+                new Point3D(x1, y1, z2),
+                new Point3D(x2, y1, z2),
+                new Point3D(x1, y2, z2),
+                new Point3D(x2, y2, z2)
+        };
+        /*for (int i = 0; i < vertices.length; i++) {
+            for (int j = 1; j < vertices.length; j++) {
+                //
+                if (
+                        (i!=j)
+                        && (
+                            vertices[i].getX() == vertices[j].getX()
+                            && vertices[i].getY() == vertices[j].getY()
+                        )
+                        || (
+                            vertices[i].getZ() == vertices[j].getZ()
+                            && vertices[i].getY() == vertices[j].getY()
+                        )
+                            || (
+                            vertices[i].getX() == vertices[j].getX()
+                            && vertices[i].getZ() == vertices[j].getZ()
+                        )
+                ) {
+                    System.out.println("holi");
+                    dibujarLinea3D(
+                            (int)vertices[i].getX() + centerx,
+                            centery - (int)vertices[i].getY(), (int)vertices[i].getZ(),
+                            centerx + (int)vertices[j].getX(),
+                            centery-(int)vertices[j].getY(), (int)vertices[j].getZ(), plano);
+                }
+
+            }
+        }
+        //*/
+        dibujarLinea3D(x1 + centerx, centery - y1, z1, x1 + centerx, centery - y1, z2, plano);
+        dibujarLinea3D(x1 + centerx, centery - y1, z1, x2 + centerx, centery - y1, z1, plano);
+        dibujarLinea3D(x1 + centerx, centery - y1, z1, x1 + centerx, centery - y2, z1, plano);
+
+        dibujarLinea3D(x2 + centerx, -y2 + centery, z1, x2 + centerx, centery - y1, z1, plano);
+        dibujarLinea3D(x2 + centerx, -y2 + centery, z1, x1 + centerx, centery - y2, z1, plano);
+        dibujarLinea3D(x2 + centerx, -y2 + centery, z1, x2 + centerx, centery - y2, z2, plano);
+
+        //dibujarLinea3D(x2 + centerx, centery - y1, z2, x2 + centerx, centery - y1, z1, plano);
+        dibujarLinea3D(x2 + centerx, centery-y1, z1,x2+centerx,centery-y1, z2, plano);
+        dibujarLinea3D(x2 + centerx, centery - y1, z2, x1 + centerx, centery - y1, z2, plano);
+        dibujarLinea3D(x2 + centerx, centery - y1, z2, x2 + centerx, centery - y2, z2, plano);
+
+        dibujarLinea3D(x1 + centerx, centery - y2, z2,  x1 + centerx, centery - y1, z2, plano);
+        dibujarLinea3D(x1 + centerx, centery - y2, z2,  x2 + centerx, centery - y2, z2, plano);
+        dibujarLinea3D(x1 + centerx, centery - y2, z1, x1 + centerx, centery - y2, z2, plano);
+        //*/
+        parent.paint(parent.getGraphics());
+
+    }
+
     public void setParent(JFrame parent) {
         this.parent = parent;
     }
