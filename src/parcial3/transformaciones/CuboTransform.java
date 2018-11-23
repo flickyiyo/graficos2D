@@ -8,6 +8,11 @@ import java.awt.image.BufferedImage;
 public class CuboTransform extends Sprite3D {
     int anguloX, anguloY, anguloZ;
     int x1, x2, y1, y2, z1, z2;
+    Point3D plano;
+
+    public void setPlano(Point3D plano) {
+        this.plano = plano;
+    }
 
     public void setBounds(Point3D p1, Point3D p2) {
         setBounds(
@@ -192,6 +197,10 @@ public class CuboTransform extends Sprite3D {
 
     public void dibujarCubo(Point3D p1, Point3D p2 , Point3D plano) {
         super.dibujarCubo((int)p1.getX(), (int)p1.getY(), (int)p1.getZ(), (int)p2.getX(), (int)p2.getY(), (int) p2.getZ(), plano);
+    }
+
+    public void trasladar(int incX, int incY, int incZ) {
+        this.dibujarCubo(x1 + incX, y1+incY, z1+incZ, x2 + incX, y2 + incY, z2+incZ, plano);
     }
 
 }

@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a03554dd-0b89-4863-8f10-90e1b76f0194" name="Default Changelist" comment="Graficas 3D perronas&#10;&#10;Paralela me la pelas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Sprite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/com/company/proyecto/Sprite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/parcial3/Sprite3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/parcial3/Sprite3D.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/parcial3/perspectiva/CuboProyeccion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/parcial3/perspectiva/CuboProyeccion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/parcial3/transformaciones/Rotacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/parcial3/transformaciones/Rotacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parcial3/Sprite3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parcial3/Sprite3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parcial3/perspectiva/CuboProyeccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parcial3/perspectiva/CuboProyeccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parcial3/transformaciones/Rotacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parcial3/transformaciones/Rotacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/parcial3/transformaciones/CuboTransform.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SegundoParcial/parcial3/transformaciones/CuboTransform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parcial3/transformaciones/CuboTransform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parcial3/transformaciones/CuboTransform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parcial3/transformaciones/Traslacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parcial3/transformaciones/Traslacion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,24 +30,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="245" />
+          <entry key="java" value="246" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="245" />
+          <entry key="JAVA" value="246" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="60" />
-          <entry key="java" value="41025" />
+          <entry key="java" value="41727" />
           <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="41025" />
+          <entry key="JAVA" value="41727" />
           <entry key="PLAIN_TEXT" value="110" />
         </counts>
       </usages-collector>
@@ -64,24 +59,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/parcial3/transformaciones/Rotacion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/parcial3/transformaciones/CuboTransform.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
+            <state relative-caret-position="240">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
                 <element signature="e#7365#7366#0" expanded="true" />
                 <element signature="e#7429#7430#0" expanded="true" />
               </folding>
@@ -89,15 +74,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Nave.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/parcial3/transformaciones/Traslacion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+            <state relative-caret-position="254">
+              <caret line="87" column="35" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1244#1245#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parcial3/Sprite3D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="183">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -220,8 +203,9 @@
         <option value="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" />
         <option value="$PROJECT_DIR$/src/parcial3/perspectiva/Paralela.java" />
         <option value="$PROJECT_DIR$/src/parcial3/Sprite3D.java" />
-        <option value="$PROJECT_DIR$/src/parcial3/transformaciones/Rotacion.java" />
         <option value="$PROJECT_DIR$/src/parcial3/transformaciones/CuboTransform.java" />
+        <option value="$PROJECT_DIR$/src/parcial3/transformaciones/Rotacion.java" />
+        <option value="$PROJECT_DIR$/src/parcial3/transformaciones/Traslacion.java" />
       </list>
     </option>
   </component>
@@ -308,20 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Rotacion">
-    <configuration name="Bresenham" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.practicas.Bresenham" />
-      <module name="SegundoParcial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.practicas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Traslacion">
     <configuration name="Paralela (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="parcial3.perspectiva.Paralela" />
       <module name="SegundoParcial" />
@@ -387,20 +358,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Traslacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parcial3.transformaciones.Traslacion" />
+      <module name="SegundoParcial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parcial3.transformaciones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Bresenham" />
       <item itemvalue="Application.Paralela" />
       <item itemvalue="Application.Proyeccion" />
       <item itemvalue="Application.Paralela (1)" />
       <item itemvalue="Application.Rotacion" />
+      <item itemvalue="Application.Traslacion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Traslacion" />
         <item itemvalue="Application.Rotacion" />
         <item itemvalue="Application.Proyeccion" />
         <item itemvalue="Application.Paralela (1)" />
         <item itemvalue="Application.Proyeccion" />
-        <item itemvalue="Application.Paralela" />
       </list>
     </recent_temporary>
   </component>
@@ -797,28 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Nave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parcial3/Sprite3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/parcial3/perspectiva/Proyeccion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -829,10 +791,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Nave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/parcial3/transformaciones/Rotacion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        <state relative-caret-position="825">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parcial3/Sprite3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -841,12 +825,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parcial3/transformaciones/CuboTransform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
+        <state relative-caret-position="240">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
             <element signature="e#7365#7366#0" expanded="true" />
             <element signature="e#7429#7430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parcial3/transformaciones/Traslacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="87" column="35" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
