@@ -50,13 +50,13 @@ public class CurvaFrame extends JFrame implements KeyListener, Runnable {
 
         switch (e.getKeyCode()) {
             case KeyEvent.VK_A:
-                this.curva.rotarx(factor*5, plano);
+                curva.rotar(5,0, 0, plano);
                 break;
             case KeyEvent.VK_S:
-                this.curva.rotarY(factor * 5, plano);
+                curva.rotar(0,5, 0, plano);
                 break;
             case KeyEvent.VK_D:
-                this.curva.rotarZ(factor * 5, plano);
+                curva.rotar(0,0, 5, plano);
                 break;
 
         }//*/

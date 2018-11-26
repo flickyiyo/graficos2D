@@ -50,9 +50,9 @@ public class Curva extends Sprite3D {
     }
 
     public void rotar(int incAngX, int incAngY, int incAngZ, Point3D plano) {
-        rotarx(incAngX, plano);
-        rotarY(incAngY, plano);
-        rotarZ(incAngZ, plano);
+        ArrayList<Point3D> newPoints = rotarx(incAngX, plano);
+        newPoints = rotarY(newPoints, incAngY, plano);
+        newPoints = rotarZ(newPoints, incAngZ, plano);
     }
 
     public Point3D getCoordenadasRotadasX(Point3D punto) {
@@ -114,60 +114,73 @@ public class Curva extends Sprite3D {
             this.listaPuntos.add(p1);
             dibujarLinea3D((int)p1.getX(), (int)p1.getY(), (int)p1.getZ(),
                     (int)p2.getX(), (int)p2.getY(), (int)p2.getZ(), plano, Color.black);
+
         }
     }
 
-    public ArrayList<Point3D> rotarx(int incAngX, Point3D plano) {
+    public ArrayList<Point3D> rotarx(ArrayList<Point3D> puntos, int incAngX, Point3D plano) {
         this.anguloX+=incAngX;
         limpiarBuffer();
-        Point3D p1 = getCoordenadasRotadasX(listaPuntos.get(0));
-        printPoint(p1);
+        Point3D p1 = getCoordenadasRotadasX(puntos.get(0));
+
         ArrayList<Point3D> nuevasPosiciones = new ArrayList<>();
-        for (int j = 0; j < listaPuntos.size(); j ++) {
-            Point3D i = listaPuntos.get(j);
+        for (int j = 0; j < puntos.size(); j ++) {
+            Point3D i = puntos.get(j);
             Point3D p2 = getCoordenadasRotadasX(i);
             nuevasPosiciones.add(p2);
             dibujarLinea3D((int)p1.getX(), (int)p1.getY(), (int)p1.getZ(),
                     (int)p2.getX(), (int)p2.getY(), (int)p2.getZ(), plano, Color.black);
             p1 = p2;
-            //listaPuntos.set(j, p2);
-            printPoint(p2);
+            //puntos.set(j, p2);
+
+        }
+        return nuevasPosiciones;
+    }
+
+
+    public ArrayList<Point3D> rotarY(ArrayList<Point3D> puntos, int incAngX, Point3D plano) {
+        this.anguloY+=incAngX;
+        limpiarBuffer();
+        Point3D p1 = getCoordenadasRotadasY(puntos.get(0));
+
+        ArrayList<Point3D> nuevasPosiciones = new ArrayList<>();
+        for (int j = 0; j < puntos.size(); j ++) {
+            Point3D i = puntos.get(j);
+            Point3D p2 = getCoordenadasRotadasY(i);
+            nuevasPosiciones.add(p2);
+            dibujarLinea3D((int)p1.getX(), (int)p1.getY(), (int)p1.getZ(),
+                    (int)p2.getX(), (int)p2.getY(), (int)p2.getZ(), plano, Color.black);
+            p1 = p2;
+            //puntos.set(j, p2);
+            //printPoint(p2);
         }
         return nuevasPosiciones;
     }
 
     public ArrayList<Point3D> rotarY(int incAngX, Point3D plano) {
-        this.anguloY+=incAngX;
-        limpiarBuffer();
-        Point3D p1 = getCoordenadasRotadasY(listaPuntos.get(0));
-        printPoint(p1);
-        ArrayList<Point3D> nuevasPosiciones = new ArrayList<>();
-        for (int j = 0; j < listaPuntos.size(); j ++) {
-            nuevasPosiciones.add()
-            Point3D i = listaPuntos.get(j);
-            Point3D p2 = getCoordenadasRotadasY(i);
-            dibujarLinea3D((int)p1.getX(), (int)p1.getY(), (int)p1.getZ(),
-                    (int)p2.getX(), (int)p2.getY(), (int)p2.getZ(), plano, Color.black);
-            p1 = p2;
-            //listaPuntos.set(j, p2);
-            printPoint(p2);
-        }
-        return nuevasPosiciones;
+        return rotarY(this.listaPuntos, incAngX, plano);
     }
 
+    public ArrayList<Point3D> rotarx(int incAngX, Point3D plano) {
+        return rotarx(this.listaPuntos, incAngX, plano);
+    }
     public ArrayList<Point3D> rotarZ(int incAngX, Point3D plano) {
+        return rotarZ(this.listaPuntos, incAngX, plano);
+    }
+
+    public ArrayList<Point3D> rotarZ(ArrayList<Point3D> puntos, int incAngX, Point3D plano) {
         this.anguloZ+=incAngX;
         limpiarBuffer();
-        Point3D p1 = getCoordenadasRotadasZ(listaPuntos.get(0));
+        Point3D p1 = getCoordenadasRotadasZ(puntos.get(0));
         ArrayList<Point3D> nuevasPosiciones = new ArrayList<>();
-        for (int j = 0; j < listaPuntos.size(); j ++) {
-            Point3D i = listaPuntos.get(j);
+        for (int j = 0; j < puntos.size(); j ++) {
+            Point3D i = puntos.get(j);
             Point3D p2 = getCoordenadasRotadasZ(i);
             nuevasPosiciones.add(p2);
             dibujarLinea3D((int)p1.getX(), (int)p1.getY(), (int)p1.getZ(),
                     (int)p2.getX(), (int)p2.getY(), (int)p2.getZ(), plano, Color.black);
             p1 = p2;
-            //listaPuntos.set(j, p2);
+            //puntos.set(j, p2);
         }
         return nuevasPosiciones;
     }
