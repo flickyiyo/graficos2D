@@ -195,28 +195,30 @@ public class Sprite {
     public void dibujarLinea(int x1, int y1, int x2, int y2) {
         dibujarLinea(x1,y1,x2,y2, Color.BLACK);
     }
-        public void dibujarLinea (int x0, int y0, int x1, int y1, Color color) {
-            int dx = x1 - x0;
-            int dy = y1 - y0;
-            int steps;
-            if (Math.abs(dx) > Math.abs(dy))
-                steps = Math.abs(dx);
-            else
-                steps = Math.abs(dy);
-            float xi = (float)dx/(float)steps;
-            float yi = (float)dy/(float)steps;
-            float x = x0, y = y0;
+    public void dibujarLinea (int x0, int y0, int x1, int y1, Color color) {
+        int dx = x1 - x0;
+        int dy = y1 - y0;
+        int steps;
+        if (Math.abs(dx) > Math.abs(dy))
+            steps = Math.abs(dx);
+        else
+            steps = Math.abs(dy);
+        float xi = (float)dx/(float)steps;
+        float yi = (float)dy/(float)steps;
+        float x = x0, y = y0;
+        putPixel((int)x, (int)y, color);
+        for (int i = 1; i < steps; i++) {
+            x+=xi;
+            y+=yi;
             putPixel((int)x, (int)y, color);
-            for (int i = 1; i < steps; i++) {
-                x+=xi;
-                y+=yi;
-                putPixel((int)x, (int)y, color);
-            }
         }
+    }
+    //*/
 
 
     public void putPixel(int x, int y, Color c) {
         pixel.setRGB(0,0, c.getRGB());
         gBuffer.drawImage(pixel, x, y,  null);
     }
+
 }

@@ -3,7 +3,9 @@ package parcial3.transformaciones;
 import javafx.geometry.Point3D;
 import parcial3.Sprite3D;
 
+import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.util.ArrayList;
 
 public class CuboTransform extends Sprite3D {
     int anguloX, anguloY, anguloZ;
@@ -36,16 +38,6 @@ public class CuboTransform extends Sprite3D {
         super(x, y, width, height);
         this.angulo=0;
         anguloX = anguloY = anguloZ = 0;
-    }
-
-    public void dibujarLinea3D(Point3D p1, Point3D p2, Point3D plano) {
-        int x1 = (int)p1.getX();
-        int y1 = (int)p1.getY();
-        int z1 = (int)p1.getZ();
-        int x2 = (int)p2.getX();
-        int y2 = (int)p2.getY();
-        int z2 = (int)p2.getZ();
-        super.dibujarLinea3D(x1, y1, z1, x2, y2, z2, plano);
     }
 
     public void limpiarBuffer() {
@@ -155,7 +147,6 @@ public class CuboTransform extends Sprite3D {
     public void dibujarCubo(Point3D plano) {
         super.dibujarCubo(x1, y1, z1, x2, y2, z2, plano);
     }
-
     public Point3D getCoordenadasRotadasX(Point3D punto) {
         Double cos = Math.cos(Math.toRadians(anguloX));
         Double sin = Math.sin(Math.toRadians(anguloX));

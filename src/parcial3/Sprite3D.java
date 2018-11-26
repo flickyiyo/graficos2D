@@ -94,11 +94,7 @@ public class Sprite3D extends Sprite {
     }
 
     public void dibujarLinea3D (int x1, int y1, int z1, int x2, int y2, int z2, Point3D plano, Color color) {
-        if (color == Color.pink) {
-            System.out.println(x1 + "," + y1 + "," +z1);
-            System.out.println(x2 + "," + y2 + "," +z2);
-            System.out.println();
-        }
+
         int xp = (int)plano.getX();
         int yp = (int)plano.getY();
         int zp = (int)plano.getX();
@@ -113,16 +109,40 @@ public class Sprite3D extends Sprite {
         System.out.println("_______");
         //*/
 
-        float x1Final = xp + ((float) x1 - xp) * ((float) zp / (z1 - zp));
-        float y1Final = yp + ((float) y1 - yp) * ((float) zp / (z1 - zp));
-        float x2Final = xp + ((float) x2 - xp) * ((float) zp / (z2 - zp));
-        float y2Final = yp + ((float) y2 - yp) * ((float) zp / (z2 - zp));
+        float x1Final = xp - ((float) x1 - xp) * ((float) zp / (z1 - zp));
+        float y1Final = yp - ((float) y1 - yp) * ((float) zp / (z1 - zp));
+        float x2Final = xp - ((float) x2 - xp) * ((float) zp / (z2 - zp));
+        float y2Final = yp - ((float) y2 - yp) * ((float) zp / (z2 - zp));
         //System.out.println(xp+","+yp+","+zp); //*/
-
+        if (color == Color.pink) {
+            System.out.println(x1Final   + "," + y1Final + "," +z1);
+            System.out.println(x2Final + "," + y2Final + "," +z2);
+            System.out.println();
+        }
         dibujarLinea((int)x1Final, (int)y1Final, (int)x2Final, (int)y2Final, color);
     }
 
     public void dibujarLinea3D (int x1, int y1, int z1, int x2, int y2, int z2, Point3D plano) {
         dibujarLinea3D(x1,y1,z1, x2, y2, z2, plano, Color.BLACK);
+    }
+
+    public void dibujarLinea3D(Point3D p1, Point3D p2, Point3D plano) {
+        int x1 = (int)p1.getX();
+        int y1 = (int)p1.getY();
+        int z1 = (int)p1.getZ();
+        int x2 = (int)p2.getX();
+        int y2 = (int)p2.getY();
+        int z2 = (int)p2.getZ();
+        dibujarLinea3D(x1, y1, z1, x2, y2, z2, plano);
+    }
+
+    public void dibujarLinea3D(Point3D p1, Point3D p2, Point3D plano, Color color) {
+        int x1 = (int)p1.getX();
+        int y1 = (int)p1.getY();
+        int z1 = (int)p1.getZ();
+        int x2 = (int)p2.getX();
+        int y2 = (int)p2.getY();
+        int z2 = (int)p2.getZ();
+        dibujarLinea3D(x1, y1, z1, x2, y2, z2, plano, color);
     }
 }
