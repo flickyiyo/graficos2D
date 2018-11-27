@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a03554dd-0b89-4863-8f10-90e1b76f0194" name="Default Changelist" comment="Graficas 3D perronas&#10;&#10;Paralela me la pelas">
+      <change beforePath="$PROJECT_DIR$/out/production/SegundoParcial/parcial3/CurvaSuperficie/Curva.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Curva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Curva.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/CurvaFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/CurvaFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Superficie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Superficie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/SuperficieFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/SuperficieFrame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,24 +32,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="273" />
+          <entry key="java" value="281" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="273" />
+          <entry key="JAVA" value="281" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="60" />
-          <entry key="java" value="46877" />
+          <entry key="java" value="49232" />
           <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="46877" />
+          <entry key="JAVA" value="49232" />
           <entry key="PLAIN_TEXT" value="110" />
         </counts>
       </usages-collector>
@@ -58,37 +61,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Curva.java">
+        <entry file="file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/SuperficieFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="163" column="66" lean-forward="true" selection-start-line="163" selection-start-column="66" selection-end-line="163" selection-end-column="66" />
+            <state relative-caret-position="84">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#5812#5813#0" expanded="true" />
-                <element signature="e#5849#5850#0" expanded="true" />
-                <element signature="e#6015#6016#0" expanded="true" />
-                <element signature="e#6078#6079#0" expanded="true" />
-                <element signature="e#6141#6142#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Superficie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/CurvaFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+            <state relative-caret-position="219">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,10 +85,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/parcial3/transformaciones/Rotacion.java">
+        <entry file="file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Superficie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="37" selection-end-column="78" />
+            <state relative-caret-position="153">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,8 +107,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>colisiona</find>
-      <find>rellenar</find>
       <find>out</find>
       <find>System.out</find>
       <find>print</find>
@@ -156,9 +132,11 @@
       <find>limpiar</find>
       <find>Curva</find>
       <find>dibujar</find>
-      <find>rotar(</find>
-      <find>run</find>
       <find>printPo</find>
+      <find>run</find>
+      <find>pressed</find>
+      <find>rotar(</find>
+      <find>dibujarCurva</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -217,20 +195,20 @@
         <option value="$PROJECT_DIR$/src/parcial3/perspectiva/Paralela.java" />
         <option value="$PROJECT_DIR$/src/parcial3/transformaciones/Escala.java" />
         <option value="$PROJECT_DIR$/src/parcial3/transformaciones/Traslacion.java" />
-        <option value="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" />
         <option value="$PROJECT_DIR$/src/parcial3/transformaciones/CuboTransform.java" />
         <option value="$PROJECT_DIR$/src/parcial3/transformaciones/Rotacion.java" />
         <option value="$PROJECT_DIR$/src/parcial3/Sprite3D.java" />
         <option value="$PROJECT_DIR$/src/com/company/proyecto/Nave.java" />
-        <option value="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/SuperficieFrame.java" />
-        <option value="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Superficie.java" />
+        <option value="$PROJECT_DIR$/src/com/company/proyecto/Sprite.java" />
         <option value="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/CurvaFrame.java" />
         <option value="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Curva.java" />
+        <option value="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Superficie.java" />
+        <option value="$PROJECT_DIR$/src/parcial3/CurvaSuperficie/SuperficieFrame.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="203" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -304,7 +282,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="paralela&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/parcial3/perspectiva/Paralela.java&#10;proyecto&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/proyecto/Proyecto.java&#10;bufferedWindow&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/practicas/BufferedWindow.java&#10;puntomedio&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/LineaPuntoMedio.java&#10;rectangul&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/Rectangulo.java&#10;modeloma&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/ModeloMatematico.java" />
+    <property name="SearchEverywhereHistoryKey" value="curvafr&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/parcial3/CurvaSuperficie/CurvaFrame.java&#10;curva&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/parcial3/CurvaSuperficie/Curva.java&#10;paralela&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/parcial3/perspectiva/Paralela.java&#10;proyecto&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/proyecto/Proyecto.java&#10;bufferedWindow&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/practicas/BufferedWindow.java&#10;puntomedio&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/LineaPuntoMedio.java&#10;rectangul&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/Rectangulo.java&#10;modeloma&#9;FILE&#9;file:///Users/yiyo/IdeaProjects/SegundoParcial/src/com/company/ModeloMatematico.java" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -319,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CurvaFrame">
+  <component name="RunManager" selected="Application.SuperficieFrame">
     <configuration name="CurvaFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="parcial3.CurvaSuperficie.CurvaFrame" />
       <module name="SegundoParcial" />
@@ -346,38 +324,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Paralela (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parcial3.perspectiva.Paralela" />
-      <module name="SegundoParcial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parcial3.perspectiva.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Proyeccion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parcial3.perspectiva.Proyeccion" />
-      <module name="SegundoParcial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parcial3.perspectiva.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Rotacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="parcial3.transformaciones.Rotacion" />
       <module name="SegundoParcial" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="parcial3.transformaciones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperficieFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parcial3.CurvaSuperficie.SuperficieFrame" />
+      <module name="SegundoParcial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parcial3.CurvaSuperficie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,20 +364,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Proyeccion" />
-      <item itemvalue="Application.Paralela (1)" />
       <item itemvalue="Application.Rotacion" />
       <item itemvalue="Application.Traslacion" />
       <item itemvalue="Application.Escala" />
       <item itemvalue="Application.CurvaFrame" />
+      <item itemvalue="Application.SuperficieFrame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SuperficieFrame" />
         <item itemvalue="Application.CurvaFrame" />
         <item itemvalue="Application.Rotacion" />
         <item itemvalue="Application.Escala" />
         <item itemvalue="Application.Traslacion" />
-        <item itemvalue="Application.Paralela (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +402,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
@@ -491,6 +455,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/SuperficieFrame.java</url>
+          <line>12</line>
+          <properties class="parcial3.CurvaSuperficie.SuperficieFrame" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/parcial3/perspectiva/Paralela.java</url>
@@ -826,21 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Sprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="194" column="16" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="method#pintarPixelGrosor#0;class#Sprite#0" />
-            <element signature="e#5943#5944#0" expanded="true" />
-            <element signature="e#5997#5998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/parcial3/transformaciones/CuboTransform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -863,12 +820,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parcial3/Sprite3D.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/proyecto/Sprite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1576">
-          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+        <state relative-caret-position="168">
+          <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="method#pintarPixelGrosor#0;class#Sprite#0" />
+            <element signature="e#5943#5944#0" expanded="true" />
+            <element signature="e#5997#5998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parcial3/Sprite3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="121" column="17" lean-forward="true" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Curva.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="116" column="28" lean-forward="true" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -883,55 +867,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Superficie.java">
+    <entry file="file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/CurvaFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="219">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Superficie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/SuperficieFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="84">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/CurvaFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parcial3/CurvaSuperficie/Curva.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="163" column="66" lean-forward="true" selection-start-line="163" selection-start-column="66" selection-end-line="163" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#5812#5813#0" expanded="true" />
-            <element signature="e#5849#5850#0" expanded="true" />
-            <element signature="e#6015#6016#0" expanded="true" />
-            <element signature="e#6078#6079#0" expanded="true" />
-            <element signature="e#6141#6142#0" expanded="true" />
           </folding>
         </state>
       </provider>

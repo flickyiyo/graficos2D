@@ -3,6 +3,7 @@ package parcial3.CurvaSuperficie;
 import javafx.geometry.Point3D;
 import parcial3.Sprite3D;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
@@ -12,9 +13,18 @@ public class Curva extends Sprite3D {
         super(x, y, width, height);
     }
     ArrayList<Point3D> listaPuntos = new ArrayList<>();
+    ArrayList<Point3D> puntosRotados = new ArrayList<>();
     int anguloX;
     int anguloY;
     int anguloZ;
+
+    public ArrayList<Point3D> getListaPuntos() {
+        return listaPuntos;
+    }
+
+    public ArrayList<Point3D> getPuntosRotados() {
+        return puntosRotados;
+    }
 
     public int getAnguloX() {
         return anguloX;
@@ -49,10 +59,12 @@ public class Curva extends Sprite3D {
         System.out.println("X: " + p.getX() + ", Y: " + p.getY() + ", Z: " + p.getZ());
     }
 
-    public void rotar(int incAngX, int incAngY, int incAngZ, Point3D plano) {
+    public ArrayList<Point3D> rotar(int incAngX, int incAngY, int incAngZ, Point3D plano) {
         ArrayList<Point3D> newPoints = rotarx(incAngX, plano);
         newPoints = rotarY(newPoints, incAngY, plano);
         newPoints = rotarZ(newPoints, incAngZ, plano);
+        this.puntosRotados = newPoints;
+        return newPoints;
     }
 
     public Point3D getCoordenadasRotadasX(Point3D punto) {
@@ -109,9 +121,11 @@ public class Curva extends Sprite3D {
     public void dibujarCurva(int x, int y, int z, Point3D plano) {
         limpiarBuffer();
         for (double i = 10; i < 500; i+=10) {
+            ;
             Point3D p1 = new Point3D(i-10 + width/2, height/2+100+Math.cos(Math.toRadians(i-10))*50, z);
             Point3D p2 = new Point3D(i + width/2, height/2+100+Math.cos(Math.toRadians(i))*50, z);
             this.listaPuntos.add(p1);
+            printPoint(p1);
             dibujarLinea3D((int)p1.getX(), (int)p1.getY(), (int)p1.getZ(),
                     (int)p2.getX(), (int)p2.getY(), (int)p2.getZ(), plano, Color.black);
 

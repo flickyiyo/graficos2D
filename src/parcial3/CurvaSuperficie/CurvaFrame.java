@@ -23,7 +23,7 @@ public class CurvaFrame extends JFrame implements KeyListener, Runnable {
         addKeyListener(this);
         this.setBounds(100, 100, 700, 700);
 
-        this.plano = new Point3D(getWidth()/2, getHeight()/2, 100);
+        this.plano = new Point3D(getWidth()/2, getHeight()/2, -100);
         this.fondo = new BufferedImage(this.getWidth(), this.getHeight(), BufferedImage.TYPE_INT_ARGB);
         this.curva = new Curva(10, 10, 500, 500);
         this.curva.dibujarCurva(200, 100, 20, plano);
@@ -60,7 +60,6 @@ public class CurvaFrame extends JFrame implements KeyListener, Runnable {
                 break;
 
         }//*/
-        System.out.println("Pressed");
         repaint();
     }
 

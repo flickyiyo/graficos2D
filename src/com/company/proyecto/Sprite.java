@@ -196,6 +196,9 @@ public class Sprite {
         dibujarLinea(x1,y1,x2,y2, Color.BLACK);
     }
     public void dibujarLinea (int x0, int y0, int x1, int y1, Color color) {
+        if (x0 < 0 || y0 < 0 || x1 < 0 || y1 < 0) {
+            return;
+        }
         int dx = x1 - x0;
         int dy = y1 - y0;
         int steps;

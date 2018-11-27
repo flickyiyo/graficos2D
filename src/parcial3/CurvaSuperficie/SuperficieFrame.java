@@ -7,6 +7,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.image.BufferedImage;
+import java.util.ArrayList;
 
 public class SuperficieFrame extends JFrame implements KeyListener, Runnable {
     public static void main(String []args) {
@@ -17,24 +18,37 @@ public class SuperficieFrame extends JFrame implements KeyListener, Runnable {
     Curva curva;
     Point3D plano;
     BufferedImage fondo;
+    Superficie superficie;
 
     public SuperficieFrame() {
         addKeyListener(this);
         this.setBounds(100, 100, 700, 700);
 
-        this.plano = new Point3D(103, 103, 1);
+        this.plano = new Point3D(getWidth()/2, getHeight()/2-50, 10);
         this.fondo = new BufferedImage(this.getWidth(), this.getHeight(), BufferedImage.TYPE_INT_ARGB);
-        this.curva = new Curva(10, 10, 500, 500);
+        ArrayList<Curva> curvas = new ArrayList<>();
+        for(int i = 0; i < 10; i++){
+            curvas.add(new Curva(10, 10, 500, 500));
+            curvas.get(i).dibujarCurva(200, 100, 50+i*10, plano);
+        }
+        this.superficie = new Superficie(10, 10, 500, 500, curvas);
+
         //this.curva.dibujarCurva(200, 100, 50, plano);
         this.setVisible(true);
-        run();
+        superficie.setParent(this);
+        this.superficie.dibujarSuperficie(200, 50, plano);
+
     }
 
     @Override
     public void paint(Graphics g) {
         this.fondo = new BufferedImage(this.getWidth(), this.getHeight(), BufferedImage.TYPE_INT_ARGB);
         fondo.getGraphics().fillRect(0,0,fondo.getWidth(), fondo.getHeight());
-        fondo.getGraphics().drawImage(this.curva.getBuffer(), this.curva.getX(), this.curva.getY(), this);
+        for (Curva curva: superficie.getCurvas()) {
+            fondo.getGraphics().drawImage(curva.getBuffer(), curva.getX(), curva.getY(), this);
+        }
+        fondo.getGraphics().drawImage(this.superficie.getBuffer(), this.superficie.getX(), this.superficie.getY(), this);
+
 
         g.drawImage(fondo, 0, 0, this);
     }
@@ -47,22 +61,6 @@ public class SuperficieFrame extends JFrame implements KeyListener, Runnable {
     @Override
     public void keyPressed(KeyEvent e) {
         int factor = isShiftPressed ? 1 : -1;
-        switch (e.getKeyCode()) {
-            case KeyEvent.VK_A:
-                this.curva.rotarx(factor*5, plano);
-                break;
-            case KeyEvent.VK_S:
-                this.curva.rotarY(factor * 5, plano);
-                break;
-            case KeyEvent.VK_D:
-                this.curva.rotarZ(factor * 5, plano);
-                break;
-            case KeyEvent.VK_SHIFT:
-                this.isShiftPressed = !this.isShiftPressed;
-                break;
-
-        }
-        System.out.println("Pressed");
         repaint();
     }
 
@@ -80,7 +78,6 @@ public class SuperficieFrame extends JFrame implements KeyListener, Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            this.curva.rotarx(factor*5, plano);
             repaint();
         }
     }
