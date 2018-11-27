@@ -20,6 +20,11 @@ public class Superficie extends Sprite3D {
         this.curvas = new ArrayList<>();
     }
 
+    public void limpiarBuffer() {
+        this.buffer = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+        this.gBuffer = buffer.getGraphics();
+    }
+
     public void dibujarSuperficie(int x, int zInicial, Point3D plano) {
         Curva curvaPrevia = curvas.get(0);
         curvaPrevia.dibujarCurva(x, 100, zInicial, plano);
@@ -28,9 +33,26 @@ public class Superficie extends Sprite3D {
             curvaActual.dibujarCurva(x, 100, zInicial+i*10, plano);
             this.getBuffer().getGraphics().drawImage(curvaActual.getBuffer(), 0,0, null);
             dibujarMalla(curvaPrevia.getListaPuntos(), curvaActual.getListaPuntos(), plano);
+            curvaPrevia = curvaActual;
         }
 
         this.parent.paint(parent.getGraphics());
+    }
+
+    public void rotarSuperficie(int incAngX, int incAngY, int incAngZ, Point3D plano) {
+        limpiarBuffer();
+        Curva curvaPrevia = curvas.get(0);
+        ArrayList<Point3D> puntosViejos = curvaPrevia.rotar(incAngX, incAngY, incAngZ, plano);
+        for (int i = 1; i < curvas.size(); i++) {
+            Curva curvaActual = curvas.get(i);
+            ArrayList<Point3D> puntosNuevos =curvaActual.rotar(incAngX, incAngY, incAngZ, plano);
+            this.getBuffer().getGraphics().drawImage(curvaActual.getBuffer(), 0,0, null);
+            dibujarMalla(puntosViejos, puntosNuevos, plano);
+            curvaPrevia = curvaActual;
+            puntosViejos = puntosNuevos;
+        }
+
+
     }
 
     public void dibujarMalla(ArrayList<Point3D> puntos1, ArrayList<Point3D> puntos2, Point3D plano) {

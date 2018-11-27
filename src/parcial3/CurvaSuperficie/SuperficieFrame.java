@@ -29,7 +29,6 @@ public class SuperficieFrame extends JFrame implements KeyListener, Runnable {
         ArrayList<Curva> curvas = new ArrayList<>();
         for(int i = 0; i < 10; i++){
             curvas.add(new Curva(10, 10, 500, 500));
-            curvas.get(i).dibujarCurva(200, 100, 50+i*10, plano);
         }
         this.superficie = new Superficie(10, 10, 500, 500, curvas);
 
@@ -44,9 +43,6 @@ public class SuperficieFrame extends JFrame implements KeyListener, Runnable {
     public void paint(Graphics g) {
         this.fondo = new BufferedImage(this.getWidth(), this.getHeight(), BufferedImage.TYPE_INT_ARGB);
         fondo.getGraphics().fillRect(0,0,fondo.getWidth(), fondo.getHeight());
-        for (Curva curva: superficie.getCurvas()) {
-            fondo.getGraphics().drawImage(curva.getBuffer(), curva.getX(), curva.getY(), this);
-        }
         fondo.getGraphics().drawImage(this.superficie.getBuffer(), this.superficie.getX(), this.superficie.getY(), this);
 
 
@@ -61,6 +57,23 @@ public class SuperficieFrame extends JFrame implements KeyListener, Runnable {
     @Override
     public void keyPressed(KeyEvent e) {
         int factor = isShiftPressed ? 1 : -1;
+
+        switch (e.getKeyCode()) {
+            case KeyEvent.VK_SHIFT:
+                isShiftPressed = !isShiftPressed;
+                break;
+            case KeyEvent.VK_A:
+                superficie.rotarSuperficie(factor*5,0, 0, plano);
+                break;
+            case KeyEvent.VK_S:
+                superficie.rotarSuperficie(0,factor*5, 0, plano);
+                break;
+            case KeyEvent.VK_D:
+                superficie.rotarSuperficie(0,0, factor*5, plano);
+                break;
+
+        }//*/
+        repaint();
         repaint();
     }
 
