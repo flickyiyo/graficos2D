@@ -1,0 +1,10 @@
+
+dsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(¨ù°
+Ÿsquid:S1186H"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ýþ8±ƒÁóô,
+squid:S1186C"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(˜Â½€øÿÿÿÿ
+Jsquid:S1948"'Make "curva" transient or serializable.(çëÌýÿÿÿÿ8­›ÛŒõ,
+\"squid:SwitchLastCaseIsDefaultCheck3""Add a default case to this switch.(ù‚Óøÿÿÿÿ8„–ó„õ,
+˜squid:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷—
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊÎ›ö
+Isquid:S14811"+Remove this unused "factor" local variable.(•ôë‘8ëàô„õ,
+Csquid:S1948"'Make "fondo" transient or serializable.(¯Ú¤·úÿÿÿÿ

@@ -67,3 +67,17 @@ X
 (src/parcial3/perspectiva/Proyeccion.java,5/7/5710ef3aa1660c7144f1cf312486b82779dc6271
 [
 +src/parcial3/transformaciones/Rotacion.java,8/c/8ccd6bfc9d52bf091b8229d2b97e17dacdab8d9a
+\
+,src/parcial3/CurvaSuperficie/CurvaFrame.java,c/c/cc4a638d12bf808a2905c05b25b5e6b433d4d398
+\
+,src/parcial3/CurvaSuperficie/Superficie.java,c/5/c5a8bd5336d861aa077fa5a88e54488be3e3143d
+W
+'src/parcial3/CurvaSuperficie/Curva.java,6/7/67586c729fdb6ab9ec83907450fd3c68f3de8ed3
+a
+1src/parcial3/CurvaSuperficie/SuperficieFrame.java,e/7/e7c8eac03ff7371da5450f7a1d47db9a471835d7
+[
++src/parcial3/CurvaSuperficie/TuboFrame.java,5/b/5bc3cb7d3285c3458a381ebe0d405d6ac044a809
+V
+&src/parcial3/CurvaSuperficie/Tubo.java,f/5/f5cce7af5183261c927ff8b45fe01d30f3e34a35
+[
++src/parcial3/CurvaSuperficie/Circulo3D.java,c/0/c001a7ee73151de9b50581eca250498f6f448fd3

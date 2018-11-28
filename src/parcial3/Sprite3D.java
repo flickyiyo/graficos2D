@@ -9,6 +9,7 @@ import java.awt.image.BufferedImage;
 
 public class Sprite3D extends Sprite {
     protected JFrame parent;
+    public int z;
     public Sprite3D(int x, int y, int width, int height) {
         this.x = x;
         this.y = y;

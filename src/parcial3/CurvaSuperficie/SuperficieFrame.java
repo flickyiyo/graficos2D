@@ -31,7 +31,6 @@ public class SuperficieFrame extends JFrame implements KeyListener, Runnable {
             curvas.add(new Curva(10, 10, 500, 500));
         }
         this.superficie = new Superficie(10, 10, 500, 500, curvas);
-
         //this.curva.dibujarCurva(200, 100, 50, plano);
         this.setVisible(true);
         superficie.setParent(this);
@@ -73,7 +72,6 @@ public class SuperficieFrame extends JFrame implements KeyListener, Runnable {
                 break;
 
         }//*/
-        repaint();
         repaint();
     }
 

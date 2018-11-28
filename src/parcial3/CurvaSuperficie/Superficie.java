@@ -51,8 +51,6 @@ public class Superficie extends Sprite3D {
             curvaPrevia = curvaActual;
             puntosViejos = puntosNuevos;
         }
-
-
     }
 
     public void dibujarMalla(ArrayList<Point3D> puntos1, ArrayList<Point3D> puntos2, Point3D plano) {
