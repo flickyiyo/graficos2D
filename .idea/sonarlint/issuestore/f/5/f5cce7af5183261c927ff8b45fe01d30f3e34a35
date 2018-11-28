@@ -1,2 +1,7 @@
 
 rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊÎ›ö
+•squid:S13193"rThe type of the "puntos2" object should be an interface such as "List" rather than the implementation "ArrayList".(Õª§‘şÿÿÿÿ8ÁšºÈõ,
+•squid:S13193"rThe type of the "puntos1" object should be an interface such as "List" rather than the implementation "ArrayList".(Õª§‘şÿÿÿÿ8ÁšºÈõ,
+squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ùÛÆ½8éÅöÆõ,
+–squid:S1319!"sThe type of the "circulos" object should be an interface such as "List" rather than the implementation "ArrayList".(´Å£ üÿÿÿÿ8éÅöÆõ,
+¤squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æ¶—ıÿÿÿÿ8€ÜœÈõ,

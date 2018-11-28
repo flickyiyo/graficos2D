@@ -1,30 +1,30 @@
 
-^squid:HiddenFieldCheckh"5Rename "y" which hides the field declared at line 33.(ÛÚ‹İ8¦´µ÷ê,
-Gsquid:S14819")Remove this unused "blue" local variable.(â­ªŞ8ŸòËËê,
-Bsquid:S1659!"Declare "y" on a separate line.(óÎšÀùÿÿÿÿ8ıÈ¦ê,
-]squid:HiddenFieldCheckp"5Rename "x" which hides the field declared at line 33.(öÎÍ8¦´µ÷ê,
->squid:S1659Ó"Declare "y" on a separate line.(•“›Ğ8Î³­Ğñ,
-_squid:HiddenFieldCheckÓ"5Rename "x" which hides the field declared at line 33.(•“›Ğ8Î³­Ğñ,
-Fsquid:S14817"(Remove this unused "red" local variable.(¹¹ºí8ŸòËËê,
-`squid:S2184#"BCast one of the operands of this addition operation to a "double".(¢ÌÛ»8™‚½Ëê,
-`squid:S21843"BCast one of the operands of this addition operation to a "double".(¢ÌÛ»8åÆÅËê,
-]squid:HiddenFieldCheck`"5Rename "x" which hides the field declared at line 33.(öÎÍ8¦´µ÷ê,
-‡"squid:ClassVariableVisibilityCheck "RMake height a static final constant or non-public and provide accessors if needed.(ış„8”‡À­ñ,
-^squid:HiddenFieldCheckY"5Rename "y" which hides the field declared at line 33.(ëÅÿ8¦´µ÷ê,
-_squid:HiddenFieldCheckÓ"5Rename "y" which hides the field declared at line 33.(•“›Ğ8Î³­Ğñ,
 ^squid:HiddenFieldCheckj"5Rename "x" which hides the field declared at line 33.(‹›ÍÀ8¦´µ÷ê,
+>squid:S1659Ó"Declare "y" on a separate line.(•“›Ğ8Î³­Ğñ,
+]squid:HiddenFieldCheck`"5Rename "x" which hides the field declared at line 33.(öÎÍ8¦´µ÷ê,
+]squid:HiddenFieldCheckp"5Rename "x" which hides the field declared at line 33.(öÎÍ8¦´µ÷ê,
+Gsquid:S14819")Remove this unused "blue" local variable.(â­ªŞ8ŸòËËê,
+Bsquid:S1659 "$Declare "height" on a separate line.(ış„8À¢ê,
+^squid:HiddenFieldCheckh"5Rename "y" which hides the field declared at line 33.(ÛÚ‹İ8¦´µ÷ê,
+^squid:HiddenFieldCheck;"5Rename "y" which hides the field declared at line 33.( …¼8øÈÉËê,
+Fsquid:S14817"(Remove this unused "red" local variable.(¹¹ºí8ŸòËËê,
 ^squid:HiddenFieldCheck)"5Rename "x" which hides the field declared at line 33.(ÚĞùÆ8™‚½Ëê,
 Hsquid:S14818"*Remove this unused "green" local variable.(¼™Á”8ŸòËËê,
-Dsquid:S1481:"&Remove this unused "x" local variable.(ÚĞùÆ8øÈÉËê,
-usquid:S3776T"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(ÜŞ©’şÿÿÿÿ8¦´µ÷ê,
-Gsquid:S14813")Remove this unused "diag" local variable.(¢ÌÛ»8åÆÅËê,
-^squid:HiddenFieldCheck:"5Rename "x" which hides the field declared at line 33.(ÚĞùÆ8øÈÉËê,
-^squid:HiddenFieldCheckC"5Rename "y" which hides the field declared at line 33.(ò‚œ˜8ùŒåõê,
 †"squid:ClassVariableVisibilityCheck "QMake width a static final constant or non-public and provide accessors if needed.(ış„8”‡À­ñ,
-Dsquid:S1481;"&Remove this unused "y" local variable.( …¼8øÈÉËê,
-^squid:HiddenFieldCheck;"5Rename "y" which hides the field declared at line 33.( …¼8øÈÉËê,
+^squid:HiddenFieldCheckY"5Rename "y" which hides the field declared at line 33.(ëÅÿ8¦´µ÷ê,
+`squid:S21843"BCast one of the operands of this addition operation to a "double".(¢ÌÛ»8åÆÅËê,
+^squid:HiddenFieldCheck:"5Rename "x" which hides the field declared at line 33.(ÚĞùÆ8øÈÉËê,
+Gsquid:S14813")Remove this unused "diag" local variable.(¢ÌÛ»8åÆÅËê,
+_squid:HiddenFieldCheckÓ"5Rename "y" which hides the field declared at line 33.(•“›Ğ8Î³­Ğñ,
 csquid:HiddenFieldCheckD"5Rename "x" which hides the field declared at line 33.(¾„ëüÿÿÿÿ8ùŒåõê,
-^squid:HiddenFieldCheck*"5Rename "y" which hides the field declared at line 33.( …¼8™‚½Ëê,
+_squid:HiddenFieldCheckÓ"5Rename "x" which hides the field declared at line 33.(•“›Ğ8Î³­Ğñ,
+`squid:S2184#"BCast one of the operands of this addition operation to a "double".(¢ÌÛ»8™‚½Ëê,
 ^squid:HiddenFieldCheckZ"5Rename "x" which hides the field declared at line 33.(‹›ÍÀ8¦´µ÷ê,
+Dsquid:S1481:"&Remove this unused "x" local variable.(ÚĞùÆ8øÈÉËê,
+Dsquid:S1481;"&Remove this unused "y" local variable.( …¼8øÈÉËê,
+Bsquid:S1659!"Declare "y" on a separate line.(óÎšÀùÿÿÿÿ8ıÈ¦ê,
+‡"squid:ClassVariableVisibilityCheck "RMake height a static final constant or non-public and provide accessors if needed.(ış„8”‡À­ñ,
+usquid:S3776T"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(ÜŞ©’şÿÿÿÿ8¦´µ÷ê,
+^squid:HiddenFieldCheck*"5Rename "y" which hides the field declared at line 33.( …¼8™‚½Ëê,
+^squid:HiddenFieldCheckC"5Rename "y" which hides the field declared at line 33.(ò‚œ˜8ùŒåõê,
 Csquid:S1905H"&Remove this unnecessary cast to "int".(‚ÄüW8ùŒåõê,
-Bsquid:S1659 "$Declare "height" on a separate line.(ış„8À¢ê,

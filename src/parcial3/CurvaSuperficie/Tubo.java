@@ -20,6 +20,10 @@ public class Tubo extends Sprite3D {
         this.gBuffer = buffer.getGraphics();
     }
 
+    public void rotar(int incX, int incY, int incZ, int factor, Point3D plano) {
+
+    }
+
     ArrayList<Circulo3D> circulos;
 
     public ArrayList<Circulo3D> getCirculos() {
@@ -32,11 +36,28 @@ public class Tubo extends Sprite3D {
 
     public void dibujarVainaRara(int factor, Point3D plano) {
         int index = 0;
-        for (int z = 0; z < circulos.size()*5; z+=5) {
+        ArrayList<Point3D> dots = circulos.get(0).dibujarCirculo(z, factor, plano);
+        for (int z = 5; z < circulos.size()*5; z+=5) {
             Circulo3D circulo3D = circulos.get(index);
-            circulos.get(index).dibujarCirculo(z, factor, plano);
-            this.buffer.getGraphics().drawImage(circulos.get(index).getBuffer(), circulo3D.getX(), circulo3D.getY(), null);
+            dots = circulos.get(index).dibujarCirculo(z, factor, dots, plano);
+            this.buffer.getGraphics().drawImage(circulos.get(index).getBuffer(), circulo3D.getX(), circulo3D.getY(), parent);
             index ++;
+        }
+
+
+        parent.paint(parent.getGraphics());
+    }
+
+    public void dibujarMalla(ArrayList<Point3D> puntos1, ArrayList<Point3D> puntos2, Point3D plano) {
+        Point3D puntoPrevio1 = puntos1.get(0);
+        Point3D puntoPrevio2 = puntos2.get(0);
+        for (int i = 0; i < puntos1.size(); i++) {
+            Point3D puntoActual1 = puntos1.get(i);
+            Point3D puntoActual2 = puntos2.get(i);
+            dibujarLinea3D(puntoPrevio1, puntoPrevio2, plano);
+            dibujarLinea3D(puntoPrevio1, puntoActual2, plano);
+            puntoPrevio1 = puntoActual1;
+            puntoPrevio2 = puntoActual2;
         }
     }
 }

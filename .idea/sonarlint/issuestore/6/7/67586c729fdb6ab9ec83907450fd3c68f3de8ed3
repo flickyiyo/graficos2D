@@ -1,32 +1,32 @@
 
-Isquid:S1172y"&Remove these unused method parameters.(°˜Ñıÿÿÿÿ8×Èêòô,
-^squid:S2184~"@Cast one of the operands of this integer division to a "double".(Áœ‚é8—ø²ôô,
-jsquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(Ö¯¾§8ÀÉÙ„õ,
-isquid:CommentedOutCodeLined"<This block of commented-out lines of code should be removed.(˜‘Ş8—±êàô,
-squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÀÚÃ8Ô®ÔŒõ,
 jsquid:CommentedOutCodeLine”"<This block of commented-out lines of code should be removed.(Ö¯¾§8Ãµ€àô,
-^squid:S2184~"@Cast one of the operands of this integer division to a "double".(Áœ‚é8—ø²ôô,
-Rsquid:EmptyStatementUsageCheck|"Remove this empty statement.(Åñ­õşÿÿÿÿ8Ù¾©”õ,
-hsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(Ëà‡Q8ğ†—àô,
-Ksquid:S1481m"(Remove this unused "sin" local variable.(¼Œ—Êşÿÿÿÿ8Ì¹£ôô,
-”squid:S1319®"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¹‚‘Åûÿÿÿÿ8ôâ§õ,
 “squid:S1319>"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ã´»’üÿÿÿÿ8ğƒ¢ˆõ,
-”squid:S1319²"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(½•¯Õÿÿÿÿÿ8¨üÛ„õ,
+Ksquid:S1481l"(Remove this unused "cos" local variable.(õ‰õıÿÿÿÿ8Ì¹£ôô,
+squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÀÚÃ8Ô®ÔŒõ,
+]squid:S2184}"@Cast one of the operands of this integer division to a "double".(ººè
+8—ø²ôô,
+hsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(Ëà‡Q8ğ†—àô,
+^squid:S2184~"@Cast one of the operands of this integer division to a "double".(Áœ‚é8—ø²ôô,
+Ksquid:S1481m"(Remove this unused "sin" local variable.(¼Œ—Êşÿÿÿÿ8Ì¹£ôô,
+nsquid:CommentedOutCodeLineW"<This block of commented-out lines of code should be removed.(¼è÷ïøÿÿÿÿ8¡ÚÙÇõ,
+]squid:S2184}"@Cast one of the operands of this integer division to a "double".(ººè
+8—ø²ôô,
+squid:S1319‡"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¼¦úÄ8İƒóõô,
+”squid:S1319®"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¹‚‘Åûÿÿÿÿ8ôâ§õ,
+Isquid:S1172y"&Remove these unused method parameters.(°˜Ñıÿÿÿÿ8×Èêòô,
+squid:S1319µ"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(×ÒÏ8„¤Ü„õ,
+squid:S1319›"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Î€Ò=8ÃçØ„õ,
+squid:S1319›"qThe type of the "puntos" object should be an interface such as "List" rather than the implementation "ArrayList".(Î€Ò=8ûşÖ„õ,
+•squid:S1319¹"qThe type of the "puntos" object should be an interface such as "List" rather than the implementation "ArrayList".(×´Åèøÿÿÿÿ8„¤Ü„õ,
 T
 squid:S106;"9Replace this use of System.out or System.err by a logger.(“–Âüÿÿÿÿ
-”squid:S1319¹"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(×´Åèøÿÿÿÿ8Àæİ„õ,
-squid:S1319›"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Î€Ò=8ûşÖ„õ,
-]squid:S2184}"@Cast one of the operands of this integer division to a "double".(ººè
-8—ø²ôô,
-•squid:S1319¹"qThe type of the "puntos" object should be an interface such as "List" rather than the implementation "ArrayList".(×´Åèøÿÿÿÿ8„¤Ü„õ,
-nsquid:CommentedOutCodeLineW"<This block of commented-out lines of code should be removed.(¼è÷ïøÿÿÿÿ8ÚÌàô,
-Ksquid:S1481l"(Remove this unused "cos" local variable.(õ‰õıÿÿÿÿ8Ì¹£ôô,
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊÎ›ö
 squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Õ„¦Ä8Ô®ÔŒõ,
-squid:S1319›"qThe type of the "puntos" object should be an interface such as "List" rather than the implementation "ArrayList".(Î€Ò=8ÃçØ„õ,
+isquid:CommentedOutCodeLined"<This block of commented-out lines of code should be removed.(˜‘Ş8—±êàô,
+Rsquid:EmptyStatementUsageCheck|"Remove this empty statement.(Åñ­õşÿÿÿÿ8Ù¾©”õ,
+jsquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(Ö¯¾§8ÀÉÙ„õ,
+”squid:S1319²"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(½•¯Õÿÿÿÿÿ8¨üÛ„õ,
+^squid:S2184~"@Cast one of the operands of this integer division to a "double".(Áœ‚é8—ø²ôô,
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊÎ›ö
+”squid:S1319¹"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(×´Åèøÿÿÿÿ8Àæİ„õ,
 jsquid:CommentedOutCodeLineÅ"<This block of commented-out lines of code should be removed.(Ö¯¾§8„¤Ü„õ,
-squid:S1319‡"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¼¦úÄ8İîŞ„õ,
-squid:S1319µ"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(×ÒÏ8„¤Ü„õ,
-]squid:S2184}"@Cast one of the operands of this integer division to a "double".(ººè
-8—ø²ôô,
-squid:S1319‡"qThe type of the "puntos" object should be an interface such as "List" rather than the implementation "ArrayList".(¼¦úÄ8İƒóõô,
+squid:S1319‡"qThe type of the "puntos" object should be an interface such as "List" rather than the implementation "ArrayList".(¼¦úÄ8İîŞ„õ,
