@@ -1,16 +1,0 @@
-
-¥squid:S2681G"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(¤Êè8›Â€ªé,
-<squid:S1659"Declare "b" on a separate line.(‹¾Ø,8ˆË“é,
-=squid:S1659" Declare "xk" on a separate line.(‹¾Ø,8ˆË“é,
-|squid:S3973E"YUse curly braces or indentation to denote the code conditionally executed by this "else".(„¶áìøÿÿÿÿ8›Â€ªé,
-=squid:S1659" Declare "yk" on a separate line.(‹¾Ø,8ˆË“é,
->squid:S1659"!Declare "aux" on a separate line.(‹¾Ø,8ˆË“é,
-Ksquid:S1948	"(Make "buffer" transient or serializable.(’ê áıÿÿÿÿ8Æ‚ôøè,
-=squid:S1659" Declare "pk" on a separate line.(‹¾Ø,8ˆË“é,
-qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ĞĞ¡Èúÿÿÿÿ8Æ‚ôøè,
-usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ïÄÖÖûÿÿÿÿ8ˆË“é,
-Qsquid:S1068
-".Remove this unused "graphPixel" private field.(Øç†©ÿÿÿÿÿ8Æ‚ôøè,
-Osquid:S1948
-",Make "graphPixel" transient or serializable.(Øç†©ÿÿÿÿÿ8Æ‚ôøè,
-Psquid:S1905"-Remove this unnecessary cast to "Graphics2D".(ŸĞÜØúÿÿÿÿ8Æ‚ôøè,

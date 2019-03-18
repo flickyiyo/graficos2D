@@ -1,36 +1,0 @@
-
-Lsquid:S1481ß"(Remove this unused "cos" local variable.(õ‰õıÿÿÿÿ8ÓÃÚÇõ,
-•squid:S1319C"rThe type of the "puntos1" object should be an interface such as "List" rather than the implementation "ArrayList".(Õª§‘şÿÿÿÿ8†´àÈõ,
-“squid:S13190"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ã´»’üÿÿÿÿ8Ñ¹Èõ,
-isquid:CommentedOutCodeLine|"<This block of commented-out lines of code should be removed.(Ö¯¾§8œ·ÀÈõ,
-›squid:S1319"xThe type of the "puntosRotados" object should be an interface such as "List" rather than the implementation "ArrayList".(æ üıÿÿÿÿ8ÛÂ‚Èõ,
-”squid:S1319ğ"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(½•¯Õÿÿÿÿÿ8œ·ÀÈõ,
-jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ö¯¾§8œ·ÀÈõ,
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊÎ›ö
-Lsquid:S1481à"(Remove this unused "sin" local variable.(¼Œ—Êşÿÿÿÿ8œ·ÀÈõ,
-”squid:S1319•"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(×´Åèøÿÿÿÿ8œ·ÀÈõ,
-isquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(Éı—¾8Ä‰ÌÆõ,
-squid:S1319ƒ"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Î€Ò=8œ·ÀÈõ,
-jsquid:CommentedOutCodeLine¡"<This block of commented-out lines of code should be removed.(Ö¯¾§8œ·ÀÈõ,
-squid:S1319?"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÀÚÃ8œ·ÀÈõ,
-isquid:CommentedOutCodeLineÍ"<This block of commented-out lines of code should be removed.(Ëà‡Q8œ·ÀÈõ,
-•squid:S1319C"rThe type of the "puntos2" object should be an interface such as "List" rather than the implementation "ArrayList".(Õª§‘şÿÿÿÿ8†´àÈõ,
-squid:S1319o"qThe type of the "puntos" object should be an interface such as "List" rather than the implementation "ArrayList".(¼¦úÄ8œ·ÀÈõ,
-jsquid:CommentedOutCodeLine¬"<This block of commented-out lines of code should be removed.(Åõ½Æ8œ·ÀÈõ,
-”squid:S1319ì"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¹‚‘Åûÿÿÿÿ8œ·ÀÈõ,
-squid:S1319ó"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(×ÒÏ8œ·ÀÈõ,
-msquid:HiddenFieldCheck_"?Rename "listaPuntos" which hides the field declared at line 23.(å„‡†ıÿÿÿÿ8œ·ÀÈõ,
-`squid:S2184d"BCast one of the operands of this addition operation to a "double".(âÕ‰è8œ·ÀÈõ,
-•squid:S1319•"qThe type of the "puntos" object should be an interface such as "List" rather than the implementation "ArrayList".(×´Åèøÿÿÿÿ8œ·ÀÈõ,
-Hsquid:S1659"%Declare "anguloY" on a separate line.(æ”Ó–şÿÿÿÿ8ÅæÛÇõ,
-`squid:S2184c"BCast one of the operands of this addition operation to a "double".(Š³Öª8œ‡©Æõ,
-`squid:S2184["BCast one of the operands of this addition operation to a "double".(ªñè‘8ˆ˜µÆõ,
-squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Õ„¦Ä8ÛÂ‚Èõ,
-esquid:S2184\"BCast one of the operands of this addition operation to a "double".(Ìóƒşÿÿÿÿ8œ·ÀÈõ,
-“squid:S1319X"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¦Ü¸Ñûÿÿÿÿ8œ·ÀÈõ,
-squid:S1319o"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¼¦úÄ8œ·ÀÈõ,
-Hsquid:S1659"%Declare "anguloZ" on a separate line.(æ”Ó–şÿÿÿÿ8ÅæÛÇõ,
-squid:S1319Q"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(µš·°8Êí÷Èõ,
-squid:S1319ƒ"qThe type of the "puntos" object should be an interface such as "List" rather than the implementation "ArrayList".(Î€Ò=8œ·ÀÈõ,
- squid:S1186¨"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰¦Ïÿ8œ·ÀÈõ,
-squid:S1319Q"pThe type of the "malla" object should be an interface such as "List" rather than the implementation "ArrayList".(µš·°8¾ËõÈõ,

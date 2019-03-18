@@ -1,14 +1,0 @@
-
-\"squid:SwitchLastCaseIsDefaultCheckB""Add a default case to this switch.(ù‚Óøÿÿÿÿ8à©­¿õ,
-Jsquid:S1948"'Make "fondo" transient or serializable.(¯Ú¤·úÿÿÿÿ8ú‡û™õ,
-Isquid:S1948"+Make "circulo3D" transient or serializable.(ÌÅ³Ï8ÂãŠÈõ,
-nsquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(¢×Êòøÿÿÿÿ8œÜ†Çõ,
-Fsquid:S1148j"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ñ–Èõ,
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊÎ›ö
-qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ó¶Ğ‡ûÿÿÿÿ8›Ëõ™õ,
-¤squid:S1186U"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(˜Â½€øÿÿÿÿ8›Ëõ™õ,
-Dsquid:S1948"&Make "tubo" transient or serializable.(¨ªá8³é•Èõ,
-Ÿsquid:S1186;"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷—8Œï¬¿õ,
-[
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(­ş‰Ãıÿÿÿÿ8à©­¿õ,
-dsquid:S2142i"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ñ–Èõ,

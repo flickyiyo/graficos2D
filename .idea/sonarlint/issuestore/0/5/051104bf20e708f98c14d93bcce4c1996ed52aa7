@@ -1,18 +1,0 @@
-
-V
-squid:S106x"9Replace this use of System.out or System.err by a logger.(í²ã8½ƒğóñ,
-Psquid:S1481!"-Remove this unused "vertices" local variable.(„šüÛúÿÿÿÿ8ĞÇÏÊô,
-[
-squid:S106w"9Replace this use of System.out or System.err by a logger.(Øöúğùÿÿÿÿ8ĞÇÏÊô,
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄºÅüÿÿÿÿ
-[squid:S00107a"<Method has 8 parameters, which is greater than 7 authorized.(õĞ›É8½ƒğóñ,
-[squid:S1197!"8Move the array designator from the variable to the type.(„šüÛúÿÿÿÿ8ĞÇÏÊô,
-[
-squid:S106y"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8½ƒğóñ,
-isquid:CommentedOutCodeLineu"<This block of commented-out lines of code should be removed.(¸ô³“8ÙŒ¨ôñ,
-nsquid:CommentedOutCodeLinef"<This block of commented-out lines of code should be removed.(ÏÁæıÿÿÿÿ8ÙŒ¨ôñ,
-isquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(¡²‘ç8ĞÇÏÊô,
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(¸¯²Ÿúÿÿÿÿ8ĞÇÏÊô,
-isquid:CommentedOutCodeLineP"<This block of commented-out lines of code should be removed.(®¤Ï8ĞÇÏÊô,
-‡"squid:ClassVariableVisibilityCheck"MMake z a static final constant or non-public and provide accessors if needed.(äÛ”øÿÿÿÿ8â‹×›õ,
